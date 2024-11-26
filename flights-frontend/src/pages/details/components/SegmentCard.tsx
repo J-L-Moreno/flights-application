@@ -1,6 +1,5 @@
 import { Box, Grid2, Typography } from "@mui/material";
 import { Segment } from "../../../models/FlightOffer";
-import { Location } from "../../../models/Location";
 
 interface Properties{
     segment: Segment

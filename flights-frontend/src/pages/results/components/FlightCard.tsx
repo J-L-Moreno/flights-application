@@ -1,4 +1,4 @@
-import { Box, Button, Grid2, Stack } from "@mui/material";
+import { Box, Button, Grid2, Stack, Typography } from "@mui/material";
 import { PriceCard } from "./PriceCard";
 import { FlightOffer, Itinerary } from "../../../models/FlightOffer";
 import { ItineraryCard } from "./ItineraryCard";
@@ -10,16 +10,18 @@ interface Properties{
     flight: FlightOffer
 }
 
+const Divisor = () => <hr style={{ width: '100%' }} />;
+
 export function FlightCard(props: Properties){
     
 const navigate = useNavigate();
 const dispatch = useDispatch();
 
     return (
-        <Box sx={{m: 2, p:2, border: '1px solid black', borderRadius:0, width: "100%"}}>
+        <Box sx={{m: 2, p:2, border: '1px solid black', borderRadius:0}}>
             <Grid2 container>
                 <Grid2 size={9}>
-                    <Stack divider={<hr/>}>
+                    <Stack divider={<Divisor/>}>
                        {
                          props.flight.itineraries.map(
                             (itinerary: Itinerary) => <ItineraryCard itinerary={itinerary}/>
