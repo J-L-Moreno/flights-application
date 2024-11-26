@@ -20,8 +20,8 @@ export function ItineraryCard(props: properties){
 
     let arrivalCityName = 'Unknown';
     let arrivalIataCode = 'Unknown';
-    if(props.itinerary.segments[0].departure.location != null){
-        const arrivalAirport: Location = props.itinerary.segments[0].departure.location;
+    if(props.itinerary.segments[0].arrival.location != null){
+        const arrivalAirport: Location = props.itinerary.segments[0].arrival.location;
         arrivalCityName = arrivalAirport.address.cityName;
         arrivalIataCode = arrivalAirport.iataCode;
     }
