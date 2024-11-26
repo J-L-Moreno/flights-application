@@ -1,0 +1,57 @@
+package com.jlmm.flights_backend.models;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class AmadeusOAuth2Token {
+    private String type;
+    private String username;
+    private String application_name;
+    private String client_id;
+    private String token_type;
+    public String access_token;
+    private int expires_in;
+    private String state;
+    private String scope;
+    
+    public String getAccessToken() {
+    	return access_token;
+    }
+
+	public String getType() {
+		return type;
+	}
+
+	public String getUserName() {
+		return username;
+	}
+
+	public String getApplicationName() {
+		return application_name;
+	}
+
+	public String getClientId() {
+		return client_id;
+	}
+
+	public String getTokenType() {
+		return token_type;
+	}
+
+	public int getExpiresIn() {
+		return expires_in;
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public String getScope() {
+		return scope;
+	}
+}
+

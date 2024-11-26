@@ -1,0 +1,39 @@
+package com.jlmm.flights_backend.services;
+
+import java.util.Collections;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.jlmm.flights_backend.models.AmadeusOAuth2Token;
+
+@Service
+public class AirportsServices {
+	
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	public String getAirports(String keyWord) {
+		String clientId = "An74xJBnYc7V0m3v775jdfeT4XVKAETO";
+		String clientSecret = "q1crunbvGs1BWR01";
+		
+		String requestBody = "grant_type=client_credentials&client_id=" + clientId + "&client_secret=" + clientSecret;
+		
+		HttpHeaders httpHeaders = new HttpHeaders();
+		httpHeaders.add("Content-Type", "application/x-www-form-urlencoded");
+		httpHeaders.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
+		
+		HttpEntity<String> entity = new HttpEntity<>(requestBody, httpHeaders);
+		
+        String url = "https://test.api.amadeus.com/v1/security/oauth2/token";		
+		ResponseEntity<AmadeusOAuth2Token> response =  restTemplate.exchange(url, HttpMethod.POST, entity, AmadeusOAuth2Token.class); 
+		System.out.println(response.getBody().access_token);
+		return response.getBody().getAccessToken();
+	}
+}

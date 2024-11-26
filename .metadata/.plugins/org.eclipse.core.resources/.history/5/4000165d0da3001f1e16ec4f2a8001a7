@@ -1,0 +1,43 @@
+package com.jlmm.flights_backend.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.jlmm.flights_backend.services.AirportServices;
+
+@RestController
+@RequestMapping("/flights/api/v1")
+public class AirportsController {
+	@Autowired
+	private AirportServices service;
+	
+	@GetMapping("/airport/{keyWord}")
+	public ResponseEntity<Object> getAirports(@PathVariable(value = "keyWord", required = true) String keyWord) {
+		return ResponseEntity.ok().body(service.getAirports(keyWord));
+//		HttpHeaders headers = new HttpHeaders();
+//		String bearerToken = "vsNaFjzod0XNcPAtW0fVIBzypWNv";
+//		headers.add("Authorization", "Bearer " + bearerToken);
+//		String url = "https://test.api.amadeus.com/v1/reference-data/locations?subType=AIRPORT&keyword=" + keyWord + "&page%5Blimit%5D=10&page%5Boffset%5D=0&sort=analytics.travelers.score&view=FULL";
+//		
+//		ResponseEntity<String> response = restTemplate.exchange(
+//			url,
+//			HttpMethod.GET,
+//			new HttpEntity<>(headers),
+//			String.class
+//		);
+//		return ResponseEntity.ok().body(response.getBody());
+	}
+
+	
+}
+
+

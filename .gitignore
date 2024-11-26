@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/flights-frontend/node_modules
+/flights-frontend/.pnp
+/flights-frontend.pnp.js
+
+# testing
+/flights-frontend/coverage
+
+# production
+/flights-frontend/build
+
+# misc
+/flights-frontend.DS_Store
+/flights-frontend.env.local
+/flights-frontend.env.development.local
+/flights-frontend.env.test.local
+/flights-frontend.env.production.local
+
+/flights-frontendnpm-debug.log*
+/flights-frontendyarn-debug.log*
+/flights-frontendyarn-error.log*
+
+# unnesessary
+/flights-backend-broken

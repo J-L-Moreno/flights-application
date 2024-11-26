@@ -1,0 +1,5 @@
+package com.jlmm.flights_backend;
+
+public class AppConfig {
+
+}

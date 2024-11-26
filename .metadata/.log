@@ -1,0 +1,2191 @@
+!SESSION 2024-11-12 23:30:27.026 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-12 23:30:32.649
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-12 23:30:57.198
+!MESSAGE Logback config file: /Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-12 23:30:57.549
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-12 23:30:57.549
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-12 23:30:57.920
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-12 23:30:57.920
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:36:35.327
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:36:35.332
+!MESSAGE Boot project ADDED: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:36:35.340
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:36:35.394
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-12 23:36:35.418
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731479795415
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:36:35.422
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-12 23:36:35.433
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10534
+!SESSION 2024-11-12 23:42:29.582 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-12 23:42:33.660
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-12 23:42:45.950
+!MESSAGE Logback config file: /Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-12 23:42:46.223
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-12 23:42:46.223
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-12 23:42:46.552
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-12 23:42:46.552
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:42:49.231
+!MESSAGE Boot project ADDED: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:42:49.239
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:42:49.259
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-12 23:42:49.278
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731480169271
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:42:49.287
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-12 23:42:49.307
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10641
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:46:36.666
+!MESSAGE Classpath changed for project: backend-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:46:36.674
+!MESSAGE Boot project ADDED: backend-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:51:08.995
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:51:09.010
+!MESSAGE Boot project ADDED: flights-backend
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-11-12 23:52:09.457
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2024-11-12 23:52:09.465
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-11-12 23:52:09.465
+!MESSAGE The project description file (.project) for 'backend' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-11-12 23:52:09.465
+!MESSAGE The project description file (.project) for 'backend-1' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-11-12 23:52:09.465
+!MESSAGE The project description file (.project) for 'flights-backend' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-11-12 23:52:10.434
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-11-12 23:52:15.977 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-12 23:52:19.527
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-11-12 23:52:27.073
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-12 23:52:27.369
+!MESSAGE Logback config file: /Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-12 23:52:27.699
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-12 23:52:27.699
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-12 23:52:27.987
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-12 23:52:27.987
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.buildship.core 2 0 2024-11-12 23:52:32.292
+!MESSAGE Failed to detect project changes
+!STACK 1
+org.eclipse.core.runtime.CoreException: SynchronizingBuildScriptUpdateListener failed
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2465)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:60)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.buildship.core.internal.GradlePluginsRuntimeException: Can't read root project location for project located at /Users/jose.moreno/Documents/dev/flights-application/backend
+	at org.eclipse.buildship.core.internal.configuration.BuildConfigurationPersistence.readPathToRoot(BuildConfigurationPersistence.java:90)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:123)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	... 14 more
+!SUBENTRY 1 org.eclipse.buildship.core 2 0 2024-11-12 23:52:32.293
+!MESSAGE SynchronizingBuildScriptUpdateListener failed
+!STACK 0
+org.eclipse.buildship.core.internal.GradlePluginsRuntimeException: Can't read root project location for project located at /Users/jose.moreno/Documents/dev/flights-application/backend
+	at org.eclipse.buildship.core.internal.configuration.BuildConfigurationPersistence.readPathToRoot(BuildConfigurationPersistence.java:90)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:123)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2465)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:60)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.buildship.core 2 0 2024-11-12 23:52:32.683
+!MESSAGE Failed to detect project changes
+!STACK 1
+org.eclipse.core.runtime.CoreException: SynchronizingBuildScriptUpdateListener failed
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.buildship.core.internal.GradlePluginsRuntimeException: Can't read root project location for project located at /Users/jose.moreno/Documents/dev/flights-application/backend
+	at org.eclipse.buildship.core.internal.configuration.BuildConfigurationPersistence.readPathToRoot(BuildConfigurationPersistence.java:90)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:123)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	... 14 more
+!SUBENTRY 1 org.eclipse.buildship.core 2 0 2024-11-12 23:52:32.683
+!MESSAGE SynchronizingBuildScriptUpdateListener failed
+!STACK 0
+org.eclipse.buildship.core.internal.GradlePluginsRuntimeException: Can't read root project location for project located at /Users/jose.moreno/Documents/dev/flights-application/backend
+	at org.eclipse.buildship.core.internal.configuration.BuildConfigurationPersistence.readPathToRoot(BuildConfigurationPersistence.java:90)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:123)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:53:02.224
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:53:12.432
+!MESSAGE Classpath changed for project: backend-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 23:53:19.843
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 00:03:11.288
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 00:03:11.680
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 00:03:11.692
+!MESSAGE Boot project ADDED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 00:03:11.701
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 00:03:11.729
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 00:03:11.772
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731481391766
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 00:03:11.785
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 00:03:11.823
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10991
+!SESSION 2024-11-13 00:25:22.876 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 00:25:27.290
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 00:25:43.550
+!MESSAGE Logback config file: /Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-13 00:25:43.852
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-13 00:25:43.853
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-13 00:25:44.151
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-13 00:25:44.151
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 00:25:46.912
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731482746911
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 00:25:46.916
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 00:25:46.940
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11330
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 00:25:47.819
+!MESSAGE Boot project ADDED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 00:25:47.825
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 00:25:47.843
+!MESSAGE Started Boot LS process
+!SESSION 2024-11-13 20:16:59.700 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 20:17:04.807
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 20:17:25.365
+!MESSAGE Logback config file: /Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-13 20:17:25.755
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-13 20:17:25.755
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-13 20:17:26.083
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-13 20:17:26.083
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 20:17:30.191
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731554250187
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 20:17:30.199
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 20:17:30.221
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 44938
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 20:17:31.185
+!MESSAGE Boot project ADDED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 20:17:31.192
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 20:17:31.200
+!MESSAGE Started Boot LS process
+!SESSION 2024-11-13 20:23:53.289 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 20:23:54.905
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 20:30:00.140
+!MESSAGE Logback config file: /Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-13 20:30:00.454
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-13 20:30:00.454
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-13 20:30:00.777
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-13 20:30:00.778
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 20:30:03.575
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731555003573
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 20:30:03.587
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 20:30:03.606
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 45166
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 20:30:04.277
+!MESSAGE Boot project ADDED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 20:30:04.299
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 20:30:04.313
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.buildship.core 2 0 2024-11-13 20:37:43.693
+!MESSAGE Failed to detect project changes
+!STACK 1
+org.eclipse.core.runtime.CoreException: SynchronizingBuildScriptUpdateListener failed
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:131)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadBuildConfiguration(DefaultConfigurationManager.java:74)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:126)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	... 13 more
+!SUBENTRY 1 org.eclipse.buildship.core 2 0 2024-11-13 20:37:43.694
+!MESSAGE SynchronizingBuildScriptUpdateListener failed
+!STACK 0
+java.lang.IllegalArgumentException
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:131)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadBuildConfiguration(DefaultConfigurationManager.java:74)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:126)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.buildship.core 2 0 2024-11-13 20:37:43.887
+!MESSAGE Failed to detect project changes
+!STACK 1
+org.eclipse.core.runtime.CoreException: SynchronizingBuildScriptUpdateListener failed
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:131)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadBuildConfiguration(DefaultConfigurationManager.java:74)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:126)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	... 14 more
+!SUBENTRY 1 org.eclipse.buildship.core 2 0 2024-11-13 20:37:43.887
+!MESSAGE SynchronizingBuildScriptUpdateListener failed
+!STACK 0
+java.lang.IllegalArgumentException
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:131)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadBuildConfiguration(DefaultConfigurationManager.java:74)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:126)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.buildship.core 2 0 2024-11-13 20:37:46.757
+!MESSAGE Failed to detect project changes
+!STACK 1
+org.eclipse.core.runtime.CoreException: SynchronizingBuildScriptUpdateListener failed
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:131)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadBuildConfiguration(DefaultConfigurationManager.java:74)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:126)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	... 13 more
+!SUBENTRY 1 org.eclipse.buildship.core 2 0 2024-11-13 20:37:46.757
+!MESSAGE SynchronizingBuildScriptUpdateListener failed
+!STACK 0
+java.lang.IllegalArgumentException
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:131)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadBuildConfiguration(DefaultConfigurationManager.java:74)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:126)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 20:37:59.324
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 20:37:59.334
+!MESSAGE Boot project REMOVED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 10:17:13.063
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 10:17:13.077
+!MESSAGE Boot project ADDED: flights-backend
+!SESSION 2024-11-14 15:40:21.216 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 15:40:25.582
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 17:48:32.137
+!MESSAGE Logback config file: /Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 17:48:32.601
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 17:48:32.601
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 17:48:32.962
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 17:48:32.962
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 17:48:38.953
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731631718950
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:48:38.957
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 17:48:39.013
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 5432
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:48:40.397
+!MESSAGE Boot project ADDED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:48:40.402
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:48:40.407
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:32:26.999
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:32:27.109
+!MESSAGE Classpath changed for project: flights-backend
+!SESSION 2024-11-14 21:32:52.758 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 21:32:57.346
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 21:33:02.024
+!MESSAGE Logback config file: /Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 21:33:02.397
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 21:33:02.397
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 21:33:02.714
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 21:33:02.714
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 21:33:06.064
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731645186063
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:33:06.069
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 21:33:06.241
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11252
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:33:07.016
+!MESSAGE Boot project ADDED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:33:07.025
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:33:07.033
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:34:46.720
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:34:46.762
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:35:18.681
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:35:18.714
+!MESSAGE Classpath changed for project: flights-backend
+!SESSION 2024-11-14 21:39:20.671 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 21:39:23.285
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 21:39:28.391
+!MESSAGE Logback config file: /Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 21:39:28.752
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 21:39:28.752
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 21:39:29.100
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 21:39:29.100
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 21:39:32.203
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731645572202
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:39:32.211
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 21:39:32.234
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11438
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:39:32.858
+!MESSAGE Boot project ADDED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:39:32.875
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:39:32.884
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.buildship.core 2 0 2024-11-14 21:41:00.446
+!MESSAGE Failed to detect project changes
+!STACK 1
+org.eclipse.core.runtime.CoreException: SynchronizingBuildScriptUpdateListener failed
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:131)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadBuildConfiguration(DefaultConfigurationManager.java:74)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:126)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	... 13 more
+!SUBENTRY 1 org.eclipse.buildship.core 2 0 2024-11-14 21:41:00.446
+!MESSAGE SynchronizingBuildScriptUpdateListener failed
+!STACK 0
+java.lang.IllegalArgumentException
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:131)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadBuildConfiguration(DefaultConfigurationManager.java:74)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:126)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 1 2024-11-14 21:41:00.508
+!MESSAGE Core exception while retrieving the content description
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/flights-backend/src/main/java/com/jlmm/flights_backend/controllers/AirportsController.java)[368]: java.io.FileNotFoundException: /Users/jose.moreno/Documents/dev/flights-application/flights-backend/src/main/java/com/jlmm/flights_backend/controllers/AirportsController.java (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.ensureOpened(ContentDescriptionManager.java:193)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.read(ContentDescriptionManager.java:210)
+	at java.base/java.io.InputStream.read(InputStream.java:220)
+	at org.eclipse.core.internal.content.LazyInputStream.loadBlock(LazyInputStream.java:147)
+	at org.eclipse.core.internal.content.LazyInputStream.ensureAvailable(LazyInputStream.java:86)
+	at org.eclipse.core.internal.content.LazyInputStream.read(LazyInputStream.java:170)
+	at org.eclipse.core.internal.content.Util.getByteOrderMark(Util.java:122)
+	at org.eclipse.core.internal.content.TextContentDescriber.describe(TextContentDescriber.java:46)
+	at org.eclipse.core.internal.content.ContentType.describe(ContentType.java:182)
+	at org.eclipse.core.internal.content.ContentType.internalGetDescriptionFor(ContentType.java:472)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:419)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:423)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:82)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:525)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:402)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:285)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:104)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:56)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.expressions.OrExpression.evaluate(OrExpression.java:26)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderDescriptor.matches(CodeMiningProviderDescriptor.java:189)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderRegistry.getProviders(CodeMiningProviderRegistry.java:110)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.installCodeMiningProviders(AbstractTextEditor.java:4030)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.installCodeMiningProviders(JavaEditor.java:4283)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.initializeSourceViewer(AbstractTextEditor.java:4020)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(AbstractTextEditor.java:3481)
+	at org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:64)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:454)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3105)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1526)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5264)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:168)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:187)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1391)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1540)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1492)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1462)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1584)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$3(AbstractTextEditor.java:4282)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2024-11-14 21:41:00.510
+!MESSAGE File not found: /flights-backend/src/main/java/com/jlmm/flights_backend/controllers/AirportsController.java.
+!STACK 0
+java.io.FileNotFoundException: /Users/jose.moreno/Documents/dev/flights-application/flights-backend/src/main/java/com/jlmm/flights_backend/controllers/AirportsController.java (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.ensureOpened(ContentDescriptionManager.java:193)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.read(ContentDescriptionManager.java:210)
+	at java.base/java.io.InputStream.read(InputStream.java:220)
+	at org.eclipse.core.internal.content.LazyInputStream.loadBlock(LazyInputStream.java:147)
+	at org.eclipse.core.internal.content.LazyInputStream.ensureAvailable(LazyInputStream.java:86)
+	at org.eclipse.core.internal.content.LazyInputStream.read(LazyInputStream.java:170)
+	at org.eclipse.core.internal.content.Util.getByteOrderMark(Util.java:122)
+	at org.eclipse.core.internal.content.TextContentDescriber.describe(TextContentDescriber.java:46)
+	at org.eclipse.core.internal.content.ContentType.describe(ContentType.java:182)
+	at org.eclipse.core.internal.content.ContentType.internalGetDescriptionFor(ContentType.java:472)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:419)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:423)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:82)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:525)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:402)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:285)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:104)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:56)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.expressions.OrExpression.evaluate(OrExpression.java:26)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderDescriptor.matches(CodeMiningProviderDescriptor.java:189)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderRegistry.getProviders(CodeMiningProviderRegistry.java:110)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.installCodeMiningProviders(AbstractTextEditor.java:4030)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.installCodeMiningProviders(JavaEditor.java:4283)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.initializeSourceViewer(AbstractTextEditor.java:4020)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(AbstractTextEditor.java:3481)
+	at org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:64)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:454)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3105)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1526)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5264)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:168)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:187)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1391)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1540)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1492)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1462)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1584)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$3(AbstractTextEditor.java:4282)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.core.resources 4 1 2024-11-14 21:41:01.212
+!MESSAGE Core exception while retrieving the content description
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/flights-backend/src/main/java/com/jlmm/flights_backend/FlightsBackendApplication.java)[368]: java.io.FileNotFoundException: /Users/jose.moreno/Documents/dev/flights-application/flights-backend/src/main/java/com/jlmm/flights_backend/FlightsBackendApplication.java (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.ensureOpened(ContentDescriptionManager.java:193)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.read(ContentDescriptionManager.java:210)
+	at java.base/java.io.InputStream.read(InputStream.java:220)
+	at org.eclipse.core.internal.content.LazyInputStream.loadBlock(LazyInputStream.java:147)
+	at org.eclipse.core.internal.content.LazyInputStream.ensureAvailable(LazyInputStream.java:86)
+	at org.eclipse.core.internal.content.LazyInputStream.read(LazyInputStream.java:170)
+	at org.eclipse.core.internal.content.Util.getByteOrderMark(Util.java:122)
+	at org.eclipse.core.internal.content.TextContentDescriber.describe(TextContentDescriber.java:46)
+	at org.eclipse.core.internal.content.ContentType.describe(ContentType.java:182)
+	at org.eclipse.core.internal.content.ContentType.internalGetDescriptionFor(ContentType.java:472)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:419)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:423)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:82)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:525)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:402)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:285)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:104)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:56)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.expressions.OrExpression.evaluate(OrExpression.java:26)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderDescriptor.matches(CodeMiningProviderDescriptor.java:189)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderRegistry.getProviders(CodeMiningProviderRegistry.java:110)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.installCodeMiningProviders(AbstractTextEditor.java:4030)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.installCodeMiningProviders(JavaEditor.java:4283)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.initializeSourceViewer(AbstractTextEditor.java:4020)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(AbstractTextEditor.java:3481)
+	at org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:64)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:454)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3105)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1526)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5264)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:168)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:187)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1391)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1540)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1492)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1462)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1584)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$3(AbstractTextEditor.java:4282)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2024-11-14 21:41:01.213
+!MESSAGE File not found: /flights-backend/src/main/java/com/jlmm/flights_backend/FlightsBackendApplication.java.
+!STACK 0
+java.io.FileNotFoundException: /Users/jose.moreno/Documents/dev/flights-application/flights-backend/src/main/java/com/jlmm/flights_backend/FlightsBackendApplication.java (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.ensureOpened(ContentDescriptionManager.java:193)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.read(ContentDescriptionManager.java:210)
+	at java.base/java.io.InputStream.read(InputStream.java:220)
+	at org.eclipse.core.internal.content.LazyInputStream.loadBlock(LazyInputStream.java:147)
+	at org.eclipse.core.internal.content.LazyInputStream.ensureAvailable(LazyInputStream.java:86)
+	at org.eclipse.core.internal.content.LazyInputStream.read(LazyInputStream.java:170)
+	at org.eclipse.core.internal.content.Util.getByteOrderMark(Util.java:122)
+	at org.eclipse.core.internal.content.TextContentDescriber.describe(TextContentDescriber.java:46)
+	at org.eclipse.core.internal.content.ContentType.describe(ContentType.java:182)
+	at org.eclipse.core.internal.content.ContentType.internalGetDescriptionFor(ContentType.java:472)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:419)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:423)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:82)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:525)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:402)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:285)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:104)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:56)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.expressions.OrExpression.evaluate(OrExpression.java:26)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderDescriptor.matches(CodeMiningProviderDescriptor.java:189)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderRegistry.getProviders(CodeMiningProviderRegistry.java:110)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.installCodeMiningProviders(AbstractTextEditor.java:4030)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.installCodeMiningProviders(JavaEditor.java:4283)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.initializeSourceViewer(AbstractTextEditor.java:4020)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(AbstractTextEditor.java:3481)
+	at org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:64)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:454)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3105)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1526)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5264)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:168)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:187)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1391)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1540)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1492)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1462)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1584)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$3(AbstractTextEditor.java:4282)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.core.resources 4 1 2024-11-14 21:41:01.538
+!MESSAGE Core exception while retrieving the content description
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/flights-backend/src/main/java/com/jlmm/flights_backend/FlightsBackendConfiguration.java)[368]: java.io.FileNotFoundException: /Users/jose.moreno/Documents/dev/flights-application/flights-backend/src/main/java/com/jlmm/flights_backend/FlightsBackendConfiguration.java (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.ensureOpened(ContentDescriptionManager.java:193)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.read(ContentDescriptionManager.java:210)
+	at java.base/java.io.InputStream.read(InputStream.java:220)
+	at org.eclipse.core.internal.content.LazyInputStream.loadBlock(LazyInputStream.java:147)
+	at org.eclipse.core.internal.content.LazyInputStream.ensureAvailable(LazyInputStream.java:86)
+	at org.eclipse.core.internal.content.LazyInputStream.read(LazyInputStream.java:170)
+	at org.eclipse.core.internal.content.Util.getByteOrderMark(Util.java:122)
+	at org.eclipse.core.internal.content.TextContentDescriber.describe(TextContentDescriber.java:46)
+	at org.eclipse.core.internal.content.ContentType.describe(ContentType.java:182)
+	at org.eclipse.core.internal.content.ContentType.internalGetDescriptionFor(ContentType.java:472)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:419)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:423)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:82)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:525)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:402)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:285)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:104)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:56)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.expressions.OrExpression.evaluate(OrExpression.java:26)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderDescriptor.matches(CodeMiningProviderDescriptor.java:189)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderRegistry.getProviders(CodeMiningProviderRegistry.java:110)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.installCodeMiningProviders(AbstractTextEditor.java:4030)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.installCodeMiningProviders(JavaEditor.java:4283)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.initializeSourceViewer(AbstractTextEditor.java:4020)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(AbstractTextEditor.java:3481)
+	at org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:64)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:454)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3105)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1526)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5264)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:168)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:187)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1391)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1540)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1492)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1462)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1584)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$3(AbstractTextEditor.java:4282)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2024-11-14 21:41:01.539
+!MESSAGE File not found: /flights-backend/src/main/java/com/jlmm/flights_backend/FlightsBackendConfiguration.java.
+!STACK 0
+java.io.FileNotFoundException: /Users/jose.moreno/Documents/dev/flights-application/flights-backend/src/main/java/com/jlmm/flights_backend/FlightsBackendConfiguration.java (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.ensureOpened(ContentDescriptionManager.java:193)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.read(ContentDescriptionManager.java:210)
+	at java.base/java.io.InputStream.read(InputStream.java:220)
+	at org.eclipse.core.internal.content.LazyInputStream.loadBlock(LazyInputStream.java:147)
+	at org.eclipse.core.internal.content.LazyInputStream.ensureAvailable(LazyInputStream.java:86)
+	at org.eclipse.core.internal.content.LazyInputStream.read(LazyInputStream.java:170)
+	at org.eclipse.core.internal.content.Util.getByteOrderMark(Util.java:122)
+	at org.eclipse.core.internal.content.TextContentDescriber.describe(TextContentDescriber.java:46)
+	at org.eclipse.core.internal.content.ContentType.describe(ContentType.java:182)
+	at org.eclipse.core.internal.content.ContentType.internalGetDescriptionFor(ContentType.java:472)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:419)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:423)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:82)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:525)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:402)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:285)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:104)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:56)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.expressions.OrExpression.evaluate(OrExpression.java:26)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderDescriptor.matches(CodeMiningProviderDescriptor.java:189)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderRegistry.getProviders(CodeMiningProviderRegistry.java:110)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.installCodeMiningProviders(AbstractTextEditor.java:4030)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.installCodeMiningProviders(JavaEditor.java:4283)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.initializeSourceViewer(AbstractTextEditor.java:4020)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(AbstractTextEditor.java:3481)
+	at org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:64)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:454)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3105)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1526)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5264)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:168)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:187)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1391)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1540)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1492)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1462)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1584)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$3(AbstractTextEditor.java:4282)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.core.resources 4 1 2024-11-14 21:41:01.909
+!MESSAGE Core exception while retrieving the content description
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/flights-backend/src/main/java/com/jlmm/flights_backend/models/AmadeusOAuth2Token.java)[368]: java.io.FileNotFoundException: /Users/jose.moreno/Documents/dev/flights-application/flights-backend/src/main/java/com/jlmm/flights_backend/models/AmadeusOAuth2Token.java (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.ensureOpened(ContentDescriptionManager.java:193)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.read(ContentDescriptionManager.java:210)
+	at java.base/java.io.InputStream.read(InputStream.java:220)
+	at org.eclipse.core.internal.content.LazyInputStream.loadBlock(LazyInputStream.java:147)
+	at org.eclipse.core.internal.content.LazyInputStream.ensureAvailable(LazyInputStream.java:86)
+	at org.eclipse.core.internal.content.LazyInputStream.read(LazyInputStream.java:170)
+	at org.eclipse.core.internal.content.Util.getByteOrderMark(Util.java:122)
+	at org.eclipse.core.internal.content.TextContentDescriber.describe(TextContentDescriber.java:46)
+	at org.eclipse.core.internal.content.ContentType.describe(ContentType.java:182)
+	at org.eclipse.core.internal.content.ContentType.internalGetDescriptionFor(ContentType.java:472)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:419)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:423)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:82)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:525)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:402)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:285)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:104)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:56)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.expressions.OrExpression.evaluate(OrExpression.java:26)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderDescriptor.matches(CodeMiningProviderDescriptor.java:189)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderRegistry.getProviders(CodeMiningProviderRegistry.java:110)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.installCodeMiningProviders(AbstractTextEditor.java:4030)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.installCodeMiningProviders(JavaEditor.java:4283)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.initializeSourceViewer(AbstractTextEditor.java:4020)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(AbstractTextEditor.java:3481)
+	at org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:64)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:454)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3105)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1526)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5264)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:168)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:187)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1391)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1540)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1492)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1462)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1584)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$3(AbstractTextEditor.java:4282)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2024-11-14 21:41:01.910
+!MESSAGE File not found: /flights-backend/src/main/java/com/jlmm/flights_backend/models/AmadeusOAuth2Token.java.
+!STACK 0
+java.io.FileNotFoundException: /Users/jose.moreno/Documents/dev/flights-application/flights-backend/src/main/java/com/jlmm/flights_backend/models/AmadeusOAuth2Token.java (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.ensureOpened(ContentDescriptionManager.java:193)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager$LazyFileInputStream.read(ContentDescriptionManager.java:210)
+	at java.base/java.io.InputStream.read(InputStream.java:220)
+	at org.eclipse.core.internal.content.LazyInputStream.loadBlock(LazyInputStream.java:147)
+	at org.eclipse.core.internal.content.LazyInputStream.ensureAvailable(LazyInputStream.java:86)
+	at org.eclipse.core.internal.content.LazyInputStream.read(LazyInputStream.java:170)
+	at org.eclipse.core.internal.content.Util.getByteOrderMark(Util.java:122)
+	at org.eclipse.core.internal.content.TextContentDescriber.describe(TextContentDescriber.java:46)
+	at org.eclipse.core.internal.content.ContentType.describe(ContentType.java:182)
+	at org.eclipse.core.internal.content.ContentType.internalGetDescriptionFor(ContentType.java:472)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:419)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:423)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:82)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:525)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:402)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:285)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:104)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:56)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.expressions.OrExpression.evaluate(OrExpression.java:26)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderDescriptor.matches(CodeMiningProviderDescriptor.java:189)
+	at org.eclipse.ui.internal.texteditor.codemining.CodeMiningProviderRegistry.getProviders(CodeMiningProviderRegistry.java:110)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.installCodeMiningProviders(AbstractTextEditor.java:4030)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.installCodeMiningProviders(JavaEditor.java:4283)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.initializeSourceViewer(AbstractTextEditor.java:4020)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(AbstractTextEditor.java:3481)
+	at org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:64)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:454)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3105)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1526)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5264)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:168)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:187)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1391)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1540)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1492)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1462)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1584)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$3(AbstractTextEditor.java:4282)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:41:35.587
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:41:35.593
+!MESSAGE Boot project REMOVED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:41:35.775
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.eclipse.buildship.core 2 0 2024-11-14 21:41:35.779
+!MESSAGE Failed to detect project changes
+!STACK 1
+org.eclipse.core.runtime.CoreException: SynchronizingBuildScriptUpdateListener failed
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.buildship.core.internal.GradlePluginsRuntimeException: Can't read root project location for project located at /Users/jose.moreno/Documents/dev/flights-application/flights-backend
+	at org.eclipse.buildship.core.internal.configuration.BuildConfigurationPersistence.readPathToRoot(BuildConfigurationPersistence.java:90)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:123)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	... 14 more
+!SUBENTRY 1 org.eclipse.buildship.core 2 0 2024-11-14 21:41:35.779
+!MESSAGE SynchronizingBuildScriptUpdateListener failed
+!STACK 0
+org.eclipse.buildship.core.internal.GradlePluginsRuntimeException: Can't read root project location for project located at /Users/jose.moreno/Documents/dev/flights-application/flights-backend
+	at org.eclipse.buildship.core.internal.configuration.BuildConfigurationPersistence.readPathToRoot(BuildConfigurationPersistence.java:90)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadProjectConfiguration(DefaultConfigurationManager.java:123)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.isEnabledInPreferences(SynchronizingBuildScriptUpdateListener.java:63)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.doVisitDelta(SynchronizingBuildScriptUpdateListener.java:85)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener$1.visit(SynchronizingBuildScriptUpdateListener.java:73)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.visitDelta(SynchronizingBuildScriptUpdateListener.java:68)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizingBuildScriptUpdateListener.resourceChanged(SynchronizingBuildScriptUpdateListener.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-11-14 21:41:41.904
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2024-11-14 21:41:41.909
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-11-14 21:41:41.909
+!MESSAGE The project description file (.project) for 'flights-backend' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2024-11-14 21:41:46.427 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 21:41:50.668
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 21:41:55.199
+!MESSAGE Logback config file: /Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 21:41:55.551
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 21:41:55.551
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 21:41:55.867
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 21:41:55.867
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:42:50.686
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:45:12.174
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:45:12.188
+!MESSAGE Boot project ADDED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:45:12.198
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:45:12.239
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 21:45:12.261
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731645912257
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:45:12.265
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 21:45:12.289
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11598
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-11-14 21:45:12.729
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: flights-backend
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/flights-backend/bin/main/application.properties)[272]: java.lang.Exception: Resource already exists on disk: '/flights-backend/bin/main/application.properties'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:377)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:572)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:425)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:256)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:122)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:131)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:92)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:224)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:146)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2024-11-14 21:45:12.732
+!MESSAGE Resource already exists on disk: '/flights-backend/bin/main/application.properties'.
+!STACK 0
+java.lang.Exception: Resource already exists on disk: '/flights-backend/bin/main/application.properties'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:377)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:572)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:425)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:256)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:122)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:131)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:92)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:224)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:146)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-11-14 21:46:16.186 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 21:46:18.830
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 21:46:23.199
+!MESSAGE Logback config file: /Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 21:46:23.547
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 21:46:23.547
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 21:46:23.898
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 21:46:23.898
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:46:26.856
+!MESSAGE Boot project ADDED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:46:26.866
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:46:26.901
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 21:46:26.910
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731645986904
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:46:26.918
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 21:46:26.946
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11642
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-11-14 21:46:37.152
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: flights-backend
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/flights-backend/bin/main/application.properties)[272]: java.lang.Exception: Resource already exists on disk: '/flights-backend/bin/main/application.properties'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:377)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:572)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:425)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:256)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:122)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:131)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:92)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:224)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:146)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:198)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2024-11-14 21:46:37.155
+!MESSAGE Resource already exists on disk: '/flights-backend/bin/main/application.properties'.
+!STACK 0
+java.lang.Exception: Resource already exists on disk: '/flights-backend/bin/main/application.properties'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:377)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:572)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:425)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:256)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:122)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:131)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:92)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:224)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:146)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:198)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:47:24.614
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:47:24.619
+!MESSAGE Boot project REMOVED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:47:54.005
+!MESSAGE Classpath changed for project: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 21:47:54.010
+!MESSAGE Boot project ADDED: flights-backend
+!SESSION 2024-11-14 22:10:13.861 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/jose.moreno/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 22:10:18.571
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 22:10:23.158
+!MESSAGE Logback config file: /Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 22:10:23.523
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 22:10:23.523
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 22:10:23.831
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 22:10:23.831
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 22:10:27.327
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/jose.moreno/Documents/dev/flights-application/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731647427319
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 22:10:27.335
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 22:10:27.359
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12254
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 22:10:27.894
+!MESSAGE Boot project ADDED: flights-backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 22:10:27.903
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 22:10:27.918
+!MESSAGE Started Boot LS process

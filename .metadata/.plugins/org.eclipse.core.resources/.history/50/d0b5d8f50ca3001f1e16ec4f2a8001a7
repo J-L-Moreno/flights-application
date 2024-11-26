@@ -1,0 +1,5 @@
+package com.jlmm.flights_backend.controllers;
+
+public class AirportsController {
+
+}

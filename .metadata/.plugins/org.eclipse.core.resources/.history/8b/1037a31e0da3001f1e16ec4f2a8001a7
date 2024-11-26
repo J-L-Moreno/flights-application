@@ -1,0 +1,5 @@
+package com.jlmm.flights_backend.models;
+
+public class AmadeusOAuth2Token {
+
+}
