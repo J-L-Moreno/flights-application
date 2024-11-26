@@ -1,13 +1,14 @@
 import { Box, Grid2, Typography } from "@mui/material";
 import { Segment } from "../../../models/FlightOffer";
+import { Location } from "../../../models/Location";
 
 interface Properties{
     segment: Segment
 }
 export function SegmentCard(props: Properties){
     let departureCity = 'Unknown';
-    if(props.segment.arrival.location != null){
-        departureCity = `${props.segment.departure.location.address.cityName} (${props.segment.departure.location.iataCode})`
+    if(props.segment.departure.location != null){
+            departureCity = `${props.segment.departure.location.address.cityName} (${props.segment.departure.location.iataCode})`;
     }
 
     let arrivalCity = 'Unknown';
