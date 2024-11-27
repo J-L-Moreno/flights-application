@@ -76,7 +76,7 @@ interface PricingOptions {
     includedCheckedBagsOnly: boolean;
 }
 
-interface TravelerPricing {
+export interface TravelerPricing {
     travelerId: string;
     fareOption: string;
     travelerType: string;
@@ -99,7 +99,7 @@ interface IncludedCheckedBags {
     quantity: number;
 }
 
-interface Amenity {
+export interface Amenity {
     description: string;
     isChargeable: boolean;
     amenityType: string;

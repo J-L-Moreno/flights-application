@@ -6,8 +6,6 @@ import org.springframework.web.bind.annotation.*;
 
 import com.jlmm.flights_backend.services.AirportsServices;
 
-import java.util.Date;
-
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/flights/api/v1")
@@ -18,18 +16,6 @@ public class AirportsController {
 	@GetMapping("/airport/{keyWord}")
 	public ResponseEntity<Object> demo(@PathVariable(value = "keyWord", required = true) String keyWord) {
 		return ResponseEntity.ok().body(keyWord);
-//		HttpHeaders headers = new HttpHeaders();
-//		String bearerToken = "vsNaFjzod0XNcPAtW0fVIBzypWNv";
-//		headers.add("Authorization", "Bearer " + bearerToken);
-//		String url = "https://test.api.amadeus.com/v1/reference-data/locations?subType=AIRPORT&keyword=" + keyWord + "&page%5Blimit%5D=10&page%5Boffset%5D=0&sort=analytics.travelers.score&view=FULL";
-//
-//		ResponseEntity<String> response = restTemplate.exchange(
-//			url,
-//			HttpMethod.GET,
-//			new HttpEntity<>(headers),
-//			String.class
-//		);
-//		return ResponseEntity.ok().body(response.getBody());
 	}
 
 	@GetMapping("/airport/info/{keyWord}")
@@ -55,6 +41,13 @@ public class AirportsController {
 				numberOfAdults,
 				nonStop
 		));
+	}
+
+	@GetMapping("/airline")
+	public ResponseEntity<Object> getAirline(
+			@RequestParam (value = "airlineIataCode", required = true) String airlineIataCode
+	){
+		return ResponseEntity.ok().body(service.getAirlineByIataCode(airlineIataCode));
 	}
 }
 

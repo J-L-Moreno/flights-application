@@ -5,6 +5,7 @@ import { RootState } from "../../store/Store";
 import { FlightOffer, Itinerary, Segment } from "../../models/FlightOffer";
 import { SegmentCard } from "./components/SegmentCard";
 import { PriceBreakdown } from "./components/PriceBreakdown";
+import { PricePerTraveler } from "./components/PricePerTraveler";
 
 export function DetailsView(){
     const navigate = useNavigate();
@@ -27,6 +28,7 @@ export function DetailsView(){
             </Grid2>
             <Grid2 size={3}>
                 <PriceBreakdown price={currentFlight!.price}/>
+                <PricePerTraveler travelerPricing={currentFlight!.travelerPricings[0]}/>
             </Grid2>
         </Grid2></>
     );

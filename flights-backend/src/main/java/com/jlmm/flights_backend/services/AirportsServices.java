@@ -37,6 +37,7 @@ public class AirportsServices {
 	}
 
 	public List<Location> getAirportCodes(String keyWord){
+		wait(1000);
 		String accessToken = getAccessToken();
 		HttpHeaders httpHeaders = new HttpHeaders();
 		httpHeaders.add("Authorization", "Bearer " + accessToken);
@@ -54,12 +55,13 @@ public class AirportsServices {
 
             return Objects.requireNonNull(response.getBody()).getData();
 		} catch (Exception e){
-			System.out.println("Bad airports request!");
+			System.out.println(e.getMessage());
 			return new ArrayList<>();
 		}
 	}
 
 	Location getAirportByIataCode(String accessToken, String iataCode){
+		wait(500);
 		HttpHeaders httpHeaders = new HttpHeaders();
 		httpHeaders.add("Authorization", "Bearer " + accessToken);
 
@@ -76,8 +78,20 @@ public class AirportsServices {
 
 			return Objects.requireNonNull(response.getBody()).getData().getFirst();
 		} catch (Exception e){
-			System.out.println("Bad airport request!");
+			System.out.println(e.getMessage());
 			return null;
+		}
+	}
+
+	public static void wait(int ms)
+	{
+		try
+		{
+			Thread.sleep(ms);
+		}
+		catch(InterruptedException ex)
+		{
+			Thread.currentThread().interrupt();
 		}
 	}
 
@@ -153,7 +167,21 @@ public class AirportsServices {
 			return Objects.requireNonNull(response.getBody()).getData();
 		} catch (Exception e){
 			System.out.println("Algo anda mal!");
+			System.out.println(e.getMessage());
 			return new ArrayList<>();
 		}
+	}
+
+	public Airline getAirlineByIataCode(String airlineCode){
+		String accessToken = getAccessToken();
+		HttpHeaders httpHeaders = new HttpHeaders();
+		httpHeaders.add("Authorization", "Bearer " + accessToken);
+		String uri = "https://test.api.amadeus.com/v1/reference-data/airlines?airlineCodes=" + airlineCode;
+
+		HttpEntity<String> entity = new HttpEntity<>(httpHeaders);
+
+		ResponseEntity<AirlineList> response = restTemplate.exchange(uri, HttpMethod.GET, entity, AirlineList.class);
+		System.out.println(response);
+		return Objects.requireNonNull(response.getBody()).getData().getFirst();
 	}
 }

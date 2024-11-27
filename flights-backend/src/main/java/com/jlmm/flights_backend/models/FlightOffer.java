@@ -1,5 +1,6 @@
 package com.jlmm.flights_backend.models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 import java.util.List;
@@ -108,6 +109,7 @@ public class FlightOffer {
         private String fareBasis;
         private String brandedFare;
         private String brandedFareLabel;
+        @JsonProperty("class")
         private String clazz;
         private IncludedCheckedBags includedCheckedBags;
         private List<Amenity> amenities;

@@ -1,5 +1,5 @@
 import { Grid2, Typography } from "@mui/material";
-import { Itinerary } from "../../../models/FlightOffer";
+import { Itinerary, Segment } from "../../../models/FlightOffer";
 import { Location } from "../../../models/Location";
 
 interface properties {
@@ -10,20 +10,18 @@ export function ItineraryCard(props: properties){
     const departureDate: string = props.itinerary.segments[0].departure.at;
     const arrivalDate: string = props.itinerary.segments.slice(-1)[0].arrival.at;
 
-    let departureCityName = 'Unknown';
-    let departureIataCode = 'Unknown';
+    let departureCityName = '';
+    let departureIataCode = `${props.itinerary.segments[0].departure.iataCode}`;
     if(props.itinerary.segments[0].departure.location != null){
         const departureAirport: Location = props.itinerary.segments[0].departure.location;
         departureCityName = departureAirport.address.cityName;
-        departureIataCode = departureAirport.iataCode;
     }
 
-    let arrivalCityName = 'Unknown';
-    let arrivalIataCode = 'Unknown';
-    if(props.itinerary.segments[0].arrival.location != null){
-        const arrivalAirport: Location = props.itinerary.segments[0].arrival.location;
+    let arrivalCityName = '';
+    let arrivalIataCode = `${props.itinerary.segments.slice(-1)[0].arrival.iataCode}`;
+    if(props.itinerary.segments.slice(-1)[0].arrival.location != null){
+        const arrivalAirport: Location = props.itinerary.segments.slice(-1)[0].arrival.location;
         arrivalCityName = arrivalAirport.address.cityName;
-        arrivalIataCode = arrivalAirport.iataCode;
     }
     
     const duration = props.itinerary.duration;
@@ -47,11 +45,26 @@ export function ItineraryCard(props: properties){
 
                 <Grid2 size={6}>
                     <br />
-                    <Typography variant="body1" align="left">{`${convertDuration(duration)}`}</Typography>
+                    <Typography variant="body1" align="left">{`${convertDuration(duration)} ${stopCounter(props.itinerary)}`}</Typography>
                 </Grid2>
             </Grid2>
         // </Box>
     );
+}
+
+function stopCounter(itinerary: Itinerary): string{
+    let count = 0;
+    itinerary.segments.map((segment: Segment)=>{
+        count += segment.numberOfStops;
+    }
+    )
+    if(count == 0){
+        return "(Non-stop)";
+    }
+    if(count == 1){
+        return "(1 stop)";
+    }
+    return `(${count} stops)`;
 }
 
 function convertDuration(isoDuration: string): string {

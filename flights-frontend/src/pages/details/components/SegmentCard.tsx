@@ -1,16 +1,17 @@
 import { Box, Grid2, Typography } from "@mui/material";
 import { Segment } from "../../../models/FlightOffer";
+import { TravelersFareDetails } from "./TravelersFareDetails";
 
 interface Properties{
     segment: Segment
 }
 export function SegmentCard(props: Properties){
-    let departureCity = 'Unknown';
+    let departureCity = props.segment.departure.iataCode;
     if(props.segment.departure.location != null){
             departureCity = `${props.segment.departure.location.address.cityName} (${props.segment.departure.location.iataCode})`;
     }
 
-    let arrivalCity = 'Unknown';
+    let arrivalCity = props.segment.arrival.iataCode;
     if(props.segment.arrival.location != null){
         arrivalCity = `${props.segment.arrival.location.address.cityName} (${props.segment.arrival.location.iataCode})`
     }
@@ -26,7 +27,7 @@ export function SegmentCard(props: Properties){
                     <Typography variant="body1">Airline</Typography>
                 </Grid2>
                 <Grid2 size={4}>
-
+                    <TravelersFareDetails segmentId={props.segment.id}/>
                 </Grid2>
             </Grid2>
         </Box>

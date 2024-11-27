@@ -1,5 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import { Fee, Price } from "../../../models/FlightOffer";
+import { PricePerTraveler } from "./PricePerTraveler";
 
 interface Properties{
     price: Price
@@ -7,7 +8,7 @@ interface Properties{
 export function PriceBreakdown(props: Properties){
     return(
         <Box sx={{p: 2, border: '1px solid black', borderRadius:0}}>
-            <Typography variant="body1">Price Breakdown</Typography>
+            <Typography variant="h6" align="center">Price Breakdown</Typography>
             <br />
             <Typography variant="body1">Base: ${`${props.price.base} ${props.price.currency}`}</Typography>
             <br />
