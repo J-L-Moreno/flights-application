@@ -7,8 +7,8 @@ interface properties {
 }
 
 export function ItineraryCard(props: properties){
-    const departureDate: string = props.itinerary.segments[0].departure.at;
-    const arrivalDate: string = props.itinerary.segments.slice(-1)[0].arrival.at;
+    const departureDate: Date = props.itinerary.segments[0].departure.at;
+    const arrivalDate: Date = props.itinerary.segments.slice(-1)[0].arrival.at;
 
     let departureCityName = '';
     let departureIataCode = `${props.itinerary.segments[0].departure.iataCode}`;

@@ -33,9 +33,11 @@ export function TravelersFareDetails(props: Properties){
             <br />
             <Typography>Amenities:</Typography>
             {
-                segmentFareDetails?.amenities.map((amenity: Amenity) => {
-                    return <Typography>{`${amenity.description} ${isChargeable(amenity.isChargeable)}`}</Typography>
-                })
+                segmentFareDetails?.amenities 
+                ?   segmentFareDetails?.amenities.map((amenity: Amenity) => {
+                        return <Typography>{`${amenity.description} ${isChargeable(amenity.isChargeable)}`}</Typography>
+                    })
+                :   <Typography>None</Typography>
             }
         </Box>
     );

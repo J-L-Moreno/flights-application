@@ -1,4 +1,4 @@
-import { Box, Button, Grid2, Stack } from "@mui/material";
+import { Box, Button, Grid2, Stack, Typography } from "@mui/material";
 import { PriceCard } from "./PriceCard";
 import { FlightOffer, Itinerary } from "../../../models/FlightOffer";
 import { ItineraryCard } from "./ItineraryCard";
@@ -21,6 +21,7 @@ const dispatch = useDispatch();
         <Box sx={{p:2, border: '1px solid black', borderRadius:0}}>
             <Grid2 container>
                 <Grid2 size={9}>
+                    <Typography>{`${props.flight.id}`}</Typography>
                     <Stack divider={<Divisor/>}>
                        {
                          props.flight.itineraries.map(

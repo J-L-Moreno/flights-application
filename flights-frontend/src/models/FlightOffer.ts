@@ -39,14 +39,14 @@ export interface Segment {
 interface Departure {
     iataCode: string;
     terminal: string;
-    at: string;
+    at: Date;
     location: Location
 }
 
 interface Arrival {
     iataCode: string;
     terminal?: string;
-    at: string;
+    at: Date;
     location: Location
 }
 
