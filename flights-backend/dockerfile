@@ -1,0 +1,9 @@
+FROM openjdk:22
+
+WORKDIR /app
+
+EXPOSE 9090
+
+COPY build/libs/flights-backend-0.0.1-SNAPSHOT.jar flights-backend.jar
+
+ENTRYPOINT ["java", "-jar", "flights-backend.jar"]

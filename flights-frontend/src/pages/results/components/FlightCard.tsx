@@ -18,7 +18,7 @@ const navigate = useNavigate();
 const dispatch = useDispatch();
 
     return (
-        <Box sx={{m: 2, p:2, border: '1px solid black', borderRadius:0}}>
+        <Box sx={{p:2, border: '1px solid black', borderRadius:0}}>
             <Grid2 container>
                 <Grid2 size={9}>
                     <Stack divider={<Divisor/>}>

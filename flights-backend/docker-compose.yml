@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  flights-backend:
+    container_name: flights-backend
+    image: flights-backend:latest
+    build: .
+    ports:
+      - "9090:9090"
+#    environment:
+#      - SPRING_PROFILES_ACTIVE=prod

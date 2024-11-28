@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux'
 import type { RootState } from '../../store/Store'
 import { FlightOffer } from '../../models/FlightOffer';
 import { FlightCard } from './components/FlightCard';
-import { Button, Stack } from '@mui/material';
+import { Box, Button, Stack } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
 export function ResultsView(){
@@ -10,9 +10,9 @@ export function ResultsView(){
     const flights = useSelector((state: RootState) => state.flights.value);
 
     return (
-        <>
+        <Box sx={{p:2}}>
         <Button variant='contained' onClick={()=>navigate("/")}>Return to Search</Button>
-        <Stack width={"100%"}>
+        <Stack width={"100%"} divider={<Box height={10}/>}>
             
             {
                 flights.map(
@@ -20,6 +20,6 @@ export function ResultsView(){
                 )
             }
         </Stack>
-        </>
+        </Box>
     );
 }

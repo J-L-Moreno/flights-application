@@ -11,7 +11,7 @@ export function DetailsView(){
     const navigate = useNavigate();
     const currentFlight: FlightOffer | undefined = useSelector((state: RootState) => state.currentFlight.value);
 
-    return (<>
+    return (<Box>
         <Button onClick={()=>navigate("/flights")}>Return to results</Button>
         <Grid2 container spacing={2} m={2}>
             <Grid2 size={9}>
@@ -30,6 +30,6 @@ export function DetailsView(){
                 <PriceBreakdown price={currentFlight!.price}/>
                 <PricePerTraveler travelerPricing={currentFlight!.travelerPricings[0]}/>
             </Grid2>
-        </Grid2></>
+        </Grid2></Box>
     );
 }
