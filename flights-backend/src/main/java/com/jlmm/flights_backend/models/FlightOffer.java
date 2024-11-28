@@ -37,6 +37,7 @@ public class FlightOffer {
         private Departure departure;
         private Arrival arrival;
         private String carrierCode;
+        private Airline carrier;
         private String number;
         private Aircraft aircraft;
         private Operating operating;
@@ -70,6 +71,7 @@ public class FlightOffer {
     @Data
     public static class Operating {
         private String carrierCode;
+        private Airline carrier;
     }
 
     @Data
@@ -133,11 +135,11 @@ public class FlightOffer {
         private String name;
     }
 
-    @Data
-    public static class Airline {
-        String name;
-        String iataCode;
-    }
+//    @Data
+//    public static class Airline {
+//        String name;
+//        String iataCode;
+//    }
 
 }
 

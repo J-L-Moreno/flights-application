@@ -1,9 +1,11 @@
 import { Grid2, Typography } from "@mui/material";
 import { Itinerary, Segment } from "../../../models/FlightOffer";
 import { Location } from "../../../models/Location";
+import { Airline } from "../../../models/Airline";
 
 interface properties {
     itinerary: Itinerary
+    airline: Airline
 }
 
 export function ItineraryCard(props: properties){
@@ -31,7 +33,7 @@ export function ItineraryCard(props: properties){
             <Grid2 container>
                 <Grid2 size={6}>
                     <Typography variant="body1" align="left">
-                        {`${departureDate} - ${arrivalDate}`}
+                        {`${formatDateTime(departureDate)} - ${formatDateTime(arrivalDate)}`}
                     </Typography>
                     <Typography variant="body1" align="left">
                         {`${departureCityName} (${departureIataCode}) - 
@@ -39,17 +41,29 @@ export function ItineraryCard(props: properties){
                     </Typography>
                     <br />
                     <Typography variant="body1" align="left">
-                        Airline
+                        {`Airline: ${props.airline.commonName ?? ''} (${props.airline.iataCode})`}
                     </Typography>
                 </Grid2>
 
                 <Grid2 size={6}>
                     <br />
-                    <Typography variant="body1" align="left">{`${convertDuration(duration)} ${stopCounter(props.itinerary)}`}</Typography>
+                    <Typography variant="body1" align="left">{`${convertDuration(duration)} ${getStops(props.itinerary)}`}</Typography>
                 </Grid2>
             </Grid2>
         // </Box>
     );
+}
+
+function getStops(itinerary: Itinerary): string{
+    let stops = itinerary.segments.length - 1;
+
+    if(stops == 0){
+        return "(Non-stop)";
+    }
+    if(stops == 1){
+        return "(1 stop)";
+    }
+    return `(${stops} stops)`;
 }
 
 function stopCounter(itinerary: Itinerary): string{
@@ -82,3 +96,19 @@ function convertDuration(isoDuration: string): string {
   
     return formattedDuration;
   }
+
+function formatDateTime(dateString: any): string {
+    const date = new Date(dateString);
+
+    if (isNaN(date.getTime())) {
+        throw new TypeError('El argumento debe ser una cadena de texto válida con formato de fecha y hora');
+    }
+
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    const hours = String(date.getHours()).padStart(2, '0');
+    const minutes = String(date.getMinutes()).padStart(2, '0');
+
+    return `${year}/${month}/${day} ${hours}:${minutes}`;
+}

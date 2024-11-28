@@ -1,3 +1,4 @@
+import { Airline } from "./Airline";
 import { Location } from "./Location";
 
 export interface FlightOffer {
@@ -16,6 +17,8 @@ export interface FlightOffer {
     pricingOptions: PricingOptions;
     validatingAirlineCodes: string[];
     travelerPricings: TravelerPricing[];
+
+    airline: Airline
 }
 
 export interface Itinerary {
@@ -27,6 +30,7 @@ export interface Segment {
     departure: Departure;
     arrival: Arrival;
     carrierCode: string;
+    carrier: Airline;
     number: string;
     aircraft: Aircraft;
     operating: Operating;
@@ -56,6 +60,7 @@ interface Aircraft {
 
 interface Operating {
     carrierCode: string;
+    carrier: Airline;
 }
 
 export interface Price {

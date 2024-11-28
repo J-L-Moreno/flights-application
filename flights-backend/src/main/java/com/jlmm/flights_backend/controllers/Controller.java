@@ -4,14 +4,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.jlmm.flights_backend.services.AirportsServices;
+import com.jlmm.flights_backend.services.Service;
 
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/flights/api/v1")
-public class AirportsController {
+public class Controller {
 	@Autowired
-	private AirportsServices service;
+	private Service service;
 	
 	@GetMapping("/airport/{keyWord}")
 	public ResponseEntity<Object> demo(@PathVariable(value = "keyWord", required = true) String keyWord) {
@@ -47,7 +47,7 @@ public class AirportsController {
 	public ResponseEntity<Object> getAirline(
 			@RequestParam (value = "airlineIataCode", required = true) String airlineIataCode
 	){
-		return ResponseEntity.ok().body(service.getAirlineByIataCode(airlineIataCode));
+		return ResponseEntity.ok().body(service.getAirline(airlineIataCode));
 	}
 }
 

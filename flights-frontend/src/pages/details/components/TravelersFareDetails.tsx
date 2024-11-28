@@ -20,7 +20,7 @@ export function TravelersFareDetails(props: Properties){
 
     function isChargeable(x: boolean){
         if(x) return '(chargeable)';
-        return '';
+        return '(not chargeable)';
     }
 
     return(
@@ -35,7 +35,7 @@ export function TravelersFareDetails(props: Properties){
             {
                 segmentFareDetails?.amenities 
                 ?   segmentFareDetails?.amenities.map((amenity: Amenity) => {
-                        return <Typography>{`${amenity.description} ${isChargeable(amenity.isChargeable)}`}</Typography>
+                        return <Typography>{`${isChargeable(amenity.isChargeable)} ${amenity.description}`}</Typography>
                     })
                 :   <Typography>None</Typography>
             }

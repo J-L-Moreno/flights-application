@@ -3,7 +3,7 @@ import { apiUrl, airline } from "./ApiConsts";
 import { Airline } from "../models/Airline";
 
 export async function getAirline(iataCode: string){
-    let uri = apiUrl + airline + '?airlineIataCode' + iataCode
+    let uri = apiUrl + airline + '?airlineIataCode=' + iataCode
 
     const response = await axios.get(uri);
 

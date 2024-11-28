@@ -21,11 +21,10 @@ const dispatch = useDispatch();
         <Box sx={{p:2, border: '1px solid black', borderRadius:0}}>
             <Grid2 container>
                 <Grid2 size={9}>
-                    <Typography>{`${props.flight.id}`}</Typography>
                     <Stack divider={<Divisor/>}>
                        {
                          props.flight.itineraries.map(
-                            (itinerary: Itinerary) => <ItineraryCard itinerary={itinerary}/>
+                            (itinerary: Itinerary) => <ItineraryCard itinerary={itinerary} airline={props.flight.airline}/>
                          )
                        }
                     </Stack>
@@ -36,7 +35,7 @@ const dispatch = useDispatch();
                 </Grid2>
 
                 <Grid2 size={1}>
-                    <Button onClick={()=>loadCurrentFlightinStorage(props.flight)}>Detail</Button>
+                    <Button fullWidth onClick={()=>loadCurrentFlightinStorage(props.flight)}>Detail</Button>
                 </Grid2>
             </Grid2>
         </Box>

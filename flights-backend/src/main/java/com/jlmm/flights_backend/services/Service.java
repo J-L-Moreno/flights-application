@@ -9,11 +9,10 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-@Service
-public class AirportsServices {
+@org.springframework.stereotype.Service
+public class Service {
 	
 	@Autowired
 	private RestTemplate restTemplate;
@@ -37,7 +36,7 @@ public class AirportsServices {
 	}
 
 	public List<Location> getAirportCodes(String keyWord){
-		wait(200);
+//		wait(200);
 		String accessToken = getAccessToken();
 		HttpHeaders httpHeaders = new HttpHeaders();
 		httpHeaders.add("Authorization", "Bearer " + accessToken);
@@ -83,18 +82,21 @@ public class AirportsServices {
 		}
 	}
 
-	public static void wait(int ms)
-	{
-		try
-		{
-			Thread.sleep(ms);
-		}
-		catch(InterruptedException ex)
-		{
-			Thread.currentThread().interrupt();
+	public Airline getAirline(String airlineCode){
+		String accessToken = getAccessToken();
+		HttpHeaders httpHeaders = new HttpHeaders();
+		httpHeaders.add("Authorization", "Bearer " + accessToken);
+		HttpEntity<String> entity = new HttpEntity<>(httpHeaders);
+
+		String uri = "https://test.api.amadeus.com/v1/reference-data/airlines?airlineCodes=" + airlineCode;
+
+		try{
+			ResponseEntity<AirlineList> response = restTemplate.exchange(uri, HttpMethod.GET, entity, AirlineList.class);
+			return Objects.requireNonNull(response.getBody()).getData().getFirst();
+		} catch(Exception e){
+			return new Airline();
 		}
 	}
-
 
 	public List<FlightOffer> getFlights(
 			String departureAirport,
@@ -128,10 +130,40 @@ public class AirportsServices {
 			List<FlightOffer> flights = response.getBody().getData();
 
 			Map<String, Location> locationCache = new HashMap<>();
+			Map<String, Airline> airlineCache = new HashMap<>();
 
 			for (FlightOffer currentFlight : flights) {
+
+				if(airlineCache.get(currentFlight.getValidatingAirlineCodes().getFirst()) != null){
+					currentFlight.setAirline(
+							airlineCache.get(currentFlight.getValidatingAirlineCodes().getFirst())
+					);
+				} else {
+					Airline airline = getAirlineByIataCode(currentFlight.getValidatingAirlineCodes().getFirst());
+					currentFlight.setAirline(airline);
+					airlineCache.put(currentFlight.getValidatingAirlineCodes().getFirst(), airline);
+				}
+
 				for (FlightOffer.Itinerary currentItinerary : currentFlight.getItineraries()) {
 					for (FlightOffer.Segment currentSegment : currentItinerary.getSegments()) {
+
+						if(airlineCache.get(currentSegment.getCarrierCode()) != null){
+							currentSegment.setCarrier(airlineCache.get(currentSegment.getCarrierCode()));
+						} else {
+							Airline airline = getAirlineByIataCode(currentSegment.getCarrierCode());
+							currentSegment.setCarrier(airline);
+							airlineCache.put(currentSegment.getCarrierCode(), airline);
+						}
+
+						if(currentSegment.getOperating() != null && currentSegment.getOperating().getCarrierCode() != null){
+							if(airlineCache.get(currentSegment.getOperating().getCarrierCode()) != null){
+								currentSegment.getOperating().setCarrier(airlineCache.get(currentSegment.getOperating().getCarrierCode()));
+							} else {
+								Airline airline = getAirlineByIataCode(currentSegment.getOperating().getCarrierCode());
+								currentSegment.getOperating().setCarrier(airline);
+								airlineCache.put(currentSegment.getOperating().getCarrierCode(), airline);
+							}
+						}
 
 						if(locationCache.get(currentSegment.getDeparture().getIataCode()) != null){
 							currentSegment.getDeparture().setLocation(
@@ -184,4 +216,17 @@ public class AirportsServices {
 		System.out.println(response);
 		return Objects.requireNonNull(response.getBody()).getData().getFirst();
 	}
+
+	public static void wait(int ms)
+	{
+		try
+		{
+			Thread.sleep(ms);
+		}
+		catch(InterruptedException ex)
+		{
+			Thread.currentThread().interrupt();
+		}
+	}
+
 }
