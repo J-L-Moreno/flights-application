@@ -4,6 +4,7 @@ import { TravelersFareDetails } from "./TravelersFareDetails";
 
 interface Properties{
     segment: Segment
+    counter: number
 }
 export function SegmentCard(props: Properties){
     let departureCity = props.segment.departure.iataCode;
@@ -20,7 +21,7 @@ export function SegmentCard(props: Properties){
         <Box sx={{p: 2, border: '1px solid black', borderRadius:0}}>
             <Grid2 container>
                 <Grid2 size={8}>
-                    <Typography variant="body1">Segment {`${props.segment.id}`}</Typography>
+                    <Typography variant="body1">Segment {`${props.counter}`}</Typography>
                     <Typography variant="body1">{`${props.segment.departure.at} - 
                     ${props.segment.arrival.at}`}</Typography>
                     <Typography variant="body1">{`${departureCity} - ${arrivalCity}`}</Typography>

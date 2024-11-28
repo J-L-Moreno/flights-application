@@ -2,23 +2,17 @@ import { useSelector } from 'react-redux'
 import type { RootState } from '../../store/Store'
 import { FlightOffer } from '../../models/FlightOffer';
 import { FlightCard } from './components/FlightCard';
-import { Box, Button, Container, Grid2, Pagination, Stack, Typography } from '@mui/material';
+import { Box, Button, Grid2, Pagination, Stack, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 export function ResultsView(){
     const navigate = useNavigate();
     const globalFlights = useSelector((state: RootState) => state.flights.value);
 
     const [page, setPage] = useState<number>(1);
-    const [flights, setFlights] = useState<FlightOffer[]>([...globalFlights]);
-    const [pageFlights, setPageFlights] = useState<FlightOffer[]>(getFlightsByPage(page));
-
-    // useEffect(
-    //     ()=>{
-    //         setFlights(globalFlights)
-    //     }, []
-    // );
+    const [flights, setFlights] = useState<FlightOffer[]>(globalFlights);
+    const [pageFlights, setPageFlights] = useState<FlightOffer[]>(getFlightsByPage(flights, page));
 
     return (
         <Box sx={{p:2}}>
@@ -54,27 +48,21 @@ export function ResultsView(){
         </Box>
     );
 
-    // int initialToDo = (page - 1) * 10;
-	// int finalToDo = (page * 10) - 1;
     function onPageChange(event: React.ChangeEvent<unknown>, value: number){
         console.log(event);
         setPage(value);
-        setPageFlights(getFlightsByPage(value));
+        setPageFlights(getFlightsByPage(flights, value));
     }
 
-    function onRefreshPage(){
-        setPageFlights(getFlightsByPage(page));
-    }
-
-    function getFlightsByPage(page: number): FlightOffer[]{
+    function getFlightsByPage(flightsList: FlightOffer[], page: number): FlightOffer[]{
         const initialFlightIndex = (page - 1) * 10;
         const finalFlightIndex  = (page * 10) - 1;
 
         let newPageFlights = [];
 
         for(let i = initialFlightIndex; i <= finalFlightIndex; i++){
-            if(i >= flights.length) break
-            newPageFlights.push(flights[i]);
+            if(i >= flightsList.length) break
+            newPageFlights.push(flightsList[i]);
         }
 
         return newPageFlights;
@@ -82,31 +70,31 @@ export function ResultsView(){
 
     function onRevertSort(){
         setFlights(globalFlights);
-        onRefreshPage();
+        setPageFlights(getFlightsByPage(globalFlights, page));
     }
 
     function onSortFlightsByDurationAsc(){
         const newFlights = sortFlightOffersByDurationAsc([...flights]);
         setFlights(newFlights);
-        onRefreshPage();
+        setPageFlights(getFlightsByPage(newFlights, page));
     }
 
     function onSortFlightsByDurationDesc(){
         let newFlights = sortFlightOffersByDurationDesc([...flights]);
         setFlights(newFlights);
-        onRefreshPage();
+        setPageFlights(getFlightsByPage(newFlights, page));
     }
 
     function onSortFlightsByPriceAsc(){
         let newFlights = sortFlightOffersByPriceAsc([...flights]);
         setFlights(newFlights);
-        onRefreshPage();
+        setPageFlights(getFlightsByPage(newFlights, page));
     }
 
     function onSortFlightsByPriceDesc(){
         let newFlights = sortFlightOffersByPriceDesc([...flights]);
         setFlights(newFlights);
-        onRefreshPage();
+        setPageFlights(getFlightsByPage(newFlights, page));
     }
     
 }

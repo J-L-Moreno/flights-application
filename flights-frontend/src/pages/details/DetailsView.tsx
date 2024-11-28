@@ -11,15 +11,17 @@ export function DetailsView(){
     const navigate = useNavigate();
     const currentFlight: FlightOffer | undefined = useSelector((state: RootState) => state.currentFlight.value);
 
-    return (<Box>
+    return (<Box sx={{p:2}}>
         <Button onClick={()=>navigate("/flights")}>Return to results</Button>
-        <Grid2 container spacing={2} m={2}>
+        <Grid2 container spacing={2}>
             <Grid2 size={9}>
                 <Stack divider={<Box height={10}/>}>
                     {
                         currentFlight?.itineraries.map((itinerary: Itinerary)=>{
+                            let counter = 1;
                             return itinerary.segments.map((segment: Segment)=>{
-                                return <SegmentCard segment={segment}/>
+                                counter++;
+                                return <SegmentCard segment={segment} counter={counter - 1}/>
                             }
                             )
                         })
