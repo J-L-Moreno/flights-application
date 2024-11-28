@@ -37,7 +37,7 @@ public class AirportsServices {
 	}
 
 	public List<Location> getAirportCodes(String keyWord){
-		wait(1000);
+		wait(200);
 		String accessToken = getAccessToken();
 		HttpHeaders httpHeaders = new HttpHeaders();
 		httpHeaders.add("Authorization", "Bearer " + accessToken);
