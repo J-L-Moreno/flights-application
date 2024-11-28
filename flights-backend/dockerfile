@@ -1,6 +1,6 @@
 FROM openjdk:22
 
-WORKDIR /app
+# WORKDIR /app
 
 EXPOSE 9090
 

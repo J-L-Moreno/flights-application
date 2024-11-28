@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  flights-frontend:
+    container_name: flights-frontend
+    image: flights-frontend:latest
+    build: .
+    ports:
+      - "3000:3000"
