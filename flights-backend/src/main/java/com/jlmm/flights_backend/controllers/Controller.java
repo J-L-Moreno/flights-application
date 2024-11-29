@@ -42,13 +42,6 @@ public class Controller {
 				nonStop
 		));
 	}
-
-	@GetMapping("/airline")
-	public ResponseEntity<Object> getAirline(
-			@RequestParam (value = "airlineIataCode", required = true) String airlineIataCode
-	){
-		return ResponseEntity.ok().body(service.getAirline(airlineIataCode));
-	}
 }
 
 

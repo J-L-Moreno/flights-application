@@ -81,8 +81,7 @@ public class Service {
 		}
 	}
 
-	public Airline getAirline(String airlineCode){
-		String accessToken = getAccessToken();
+	public Airline getAirline(String accessToken, String airlineCode){
 		HttpHeaders httpHeaders = new HttpHeaders();
 		httpHeaders.add("Authorization", "Bearer " + accessToken);
 		HttpEntity<String> entity = new HttpEntity<>(httpHeaders);
@@ -138,7 +137,7 @@ public class Service {
 							airlineCache.get(currentFlight.getValidatingAirlineCodes().getFirst())
 					);
 				} else {
-					Airline airline = getAirlineByIataCode(currentFlight.getValidatingAirlineCodes().getFirst());
+					Airline airline = getAirline(accessToken, currentFlight.getValidatingAirlineCodes().getFirst());
 					currentFlight.setAirline(airline);
 					airlineCache.put(currentFlight.getValidatingAirlineCodes().getFirst(), airline);
 				}
@@ -149,7 +148,7 @@ public class Service {
 						if(airlineCache.get(currentSegment.getCarrierCode()) != null){
 							currentSegment.setCarrier(airlineCache.get(currentSegment.getCarrierCode()));
 						} else {
-							Airline airline = getAirlineByIataCode(currentSegment.getCarrierCode());
+							Airline airline = getAirline(accessToken, currentSegment.getCarrierCode());
 							currentSegment.setCarrier(airline);
 							airlineCache.put(currentSegment.getCarrierCode(), airline);
 						}
@@ -158,7 +157,7 @@ public class Service {
 							if(airlineCache.get(currentSegment.getOperating().getCarrierCode()) != null){
 								currentSegment.getOperating().setCarrier(airlineCache.get(currentSegment.getOperating().getCarrierCode()));
 							} else {
-								Airline airline = getAirlineByIataCode(currentSegment.getOperating().getCarrierCode());
+								Airline airline = getAirline(accessToken, currentSegment.getOperating().getCarrierCode());
 								currentSegment.getOperating().setCarrier(airline);
 								airlineCache.put(currentSegment.getOperating().getCarrierCode(), airline);
 							}
@@ -189,31 +188,15 @@ public class Service {
 
 							locationCache.put(currentSegment.getArrival().getIataCode(), arrivalLocation);
 						}
-							System.out.println(currentSegment.getDeparture().getLocation());
-							System.out.println(currentSegment.getArrival().getLocation());
 					}
 				}
 			}
-
+			System.out.println("Flights sended");
 			return Objects.requireNonNull(response.getBody()).getData();
 		} catch (Exception e){
-			System.out.println("Algo anda mal!");
 			System.out.println(e.getMessage());
 			return new ArrayList<>();
 		}
-	}
-
-	public Airline getAirlineByIataCode(String airlineCode){
-		String accessToken = getAccessToken();
-		HttpHeaders httpHeaders = new HttpHeaders();
-		httpHeaders.add("Authorization", "Bearer " + accessToken);
-		String uri = "https://test.api.amadeus.com/v1/reference-data/airlines?airlineCodes=" + airlineCode;
-
-		HttpEntity<String> entity = new HttpEntity<>(httpHeaders);
-
-		ResponseEntity<AirlineList> response = restTemplate.exchange(uri, HttpMethod.GET, entity, AirlineList.class);
-		System.out.println(response);
-		return Objects.requireNonNull(response.getBody()).getData().getFirst();
 	}
 
 	public static void wait(int ms)
