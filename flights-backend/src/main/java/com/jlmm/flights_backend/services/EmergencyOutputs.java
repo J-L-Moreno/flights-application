@@ -1,7 +1,11 @@
 package com.jlmm.flights_backend.services;
 
+import lombok.Data;
+import org.springframework.stereotype.Repository;
+
+@Repository
 public class EmergencyOutputs {
-    String Airports = "[\n" +
+    public static String airports = "[\n" +
             "    {\n" +
             "        \"name\": \"SAN FRANCISCO INTL\",\n" +
             "        \"id\": \"ASFO\",\n" +
@@ -181,6 +185,282 @@ public class EmergencyOutputs {
             "            \"cityName\": \"SANTA BARBARA\",\n" +
             "            \"countryName\": \"UNITED STATES OF AMERICA\"\n" +
             "        }\n" +
+            "    }\n" +
+            "]";
+
+    public static String flights = "[\n" +
+            "    {\n" +
+            "        \"type\": \"flight-offer\",\n" +
+            "        \"id\": \"1\",\n" +
+            "        \"source\": \"GDS\",\n" +
+            "        \"instantTicketingRequired\": false,\n" +
+            "        \"nonHomogeneous\": false,\n" +
+            "        \"oneWay\": false,\n" +
+            "        \"lastTicketingDate\": \"2024-11-29\",\n" +
+            "        \"lastTicketingDateTime\": \"2024-11-29\",\n" +
+            "        \"numberOfBookableSeats\": 9,\n" +
+            "        \"itineraries\": [\n" +
+            "            {\n" +
+            "                \"duration\": \"PT2H10M\",\n" +
+            "                \"segments\": [\n" +
+            "                    {\n" +
+            "                        \"departure\": {\n" +
+            "                            \"iataCode\": \"HMO\",\n" +
+            "                            \"terminal\": null,\n" +
+            "                            \"at\": \"2024-12-26T20:40:00\",\n" +
+            "                            \"location\": {\n" +
+            "                                \"name\": \"I.PESQUEIRA GARCIA\",\n" +
+            "                                \"id\": \"AHMO\",\n" +
+            "                                \"iataCode\": \"HMO\",\n" +
+            "                                \"address\": {\n" +
+            "                                    \"cityName\": \"HERMOSILLO\",\n" +
+            "                                    \"countryName\": \"MEXICO\"\n" +
+            "                                }\n" +
+            "                            }\n" +
+            "                        },\n" +
+            "                        \"arrival\": {\n" +
+            "                            \"iataCode\": \"GDL\",\n" +
+            "                            \"terminal\": \"1\",\n" +
+            "                            \"at\": \"2024-12-26T23:50:00\",\n" +
+            "                            \"location\": {\n" +
+            "                                \"name\": \"MIGUEL HIDALGO INTL\",\n" +
+            "                                \"id\": \"AGDL\",\n" +
+            "                                \"iataCode\": \"GDL\",\n" +
+            "                                \"address\": {\n" +
+            "                                    \"cityName\": \"GUADALAJARA\",\n" +
+            "                                    \"countryName\": \"MEXICO\"\n" +
+            "                                }\n" +
+            "                            }\n" +
+            "                        },\n" +
+            "                        \"carrierCode\": \"VB\",\n" +
+            "                        \"carrier\": {\n" +
+            "                            \"iataCode\": \"VB\",\n" +
+            "                            \"businessName\": \"VIVA AEROBUS\",\n" +
+            "                            \"commonName\": \"VIVA AEROBUS\"\n" +
+            "                        },\n" +
+            "                        \"number\": \"3187\",\n" +
+            "                        \"aircraft\": {\n" +
+            "                            \"code\": \"320\"\n" +
+            "                        },\n" +
+            "                        \"operating\": {\n" +
+            "                            \"carrierCode\": \"VB\",\n" +
+            "                            \"carrier\": {\n" +
+            "                                \"iataCode\": \"VB\",\n" +
+            "                                \"businessName\": \"VIVA AEROBUS\",\n" +
+            "                                \"commonName\": \"VIVA AEROBUS\"\n" +
+            "                            }\n" +
+            "                        },\n" +
+            "                        \"duration\": \"PT2H10M\",\n" +
+            "                        \"id\": \"1\",\n" +
+            "                        \"numberOfStops\": 0,\n" +
+            "                        \"blacklistedInEU\": false\n" +
+            "                    }\n" +
+            "                ]\n" +
+            "            },\n" +
+            "            {\n" +
+            "                \"duration\": \"PT2H10M\",\n" +
+            "                \"segments\": [\n" +
+            "                    {\n" +
+            "                        \"departure\": {\n" +
+            "                            \"iataCode\": \"GDL\",\n" +
+            "                            \"terminal\": \"1\",\n" +
+            "                            \"at\": \"2025-01-15T18:50:00\",\n" +
+            "                            \"location\": {\n" +
+            "                                \"name\": \"MIGUEL HIDALGO INTL\",\n" +
+            "                                \"id\": \"AGDL\",\n" +
+            "                                \"iataCode\": \"GDL\",\n" +
+            "                                \"address\": {\n" +
+            "                                    \"cityName\": \"GUADALAJARA\",\n" +
+            "                                    \"countryName\": \"MEXICO\"\n" +
+            "                                }\n" +
+            "                            }\n" +
+            "                        },\n" +
+            "                        \"arrival\": {\n" +
+            "                            \"iataCode\": \"HMO\",\n" +
+            "                            \"terminal\": null,\n" +
+            "                            \"at\": \"2025-01-15T20:00:00\",\n" +
+            "                            \"location\": {\n" +
+            "                                \"name\": \"I.PESQUEIRA GARCIA\",\n" +
+            "                                \"id\": \"AHMO\",\n" +
+            "                                \"iataCode\": \"HMO\",\n" +
+            "                                \"address\": {\n" +
+            "                                    \"cityName\": \"HERMOSILLO\",\n" +
+            "                                    \"countryName\": \"MEXICO\"\n" +
+            "                                }\n" +
+            "                            }\n" +
+            "                        },\n" +
+            "                        \"carrierCode\": \"VB\",\n" +
+            "                        \"carrier\": {\n" +
+            "                            \"iataCode\": \"VB\",\n" +
+            "                            \"businessName\": \"VIVA AEROBUS\",\n" +
+            "                            \"commonName\": \"VIVA AEROBUS\"\n" +
+            "                        },\n" +
+            "                        \"number\": \"3186\",\n" +
+            "                        \"aircraft\": {\n" +
+            "                            \"code\": \"320\"\n" +
+            "                        },\n" +
+            "                        \"operating\": {\n" +
+            "                            \"carrierCode\": \"VB\",\n" +
+            "                            \"carrier\": {\n" +
+            "                                \"iataCode\": \"VB\",\n" +
+            "                                \"businessName\": \"VIVA AEROBUS\",\n" +
+            "                                \"commonName\": \"VIVA AEROBUS\"\n" +
+            "                            }\n" +
+            "                        },\n" +
+            "                        \"duration\": \"PT2H10M\",\n" +
+            "                        \"id\": \"2\",\n" +
+            "                        \"numberOfStops\": 0,\n" +
+            "                        \"blacklistedInEU\": false\n" +
+            "                    }\n" +
+            "                ]\n" +
+            "            }\n" +
+            "        ],\n" +
+            "        \"price\": {\n" +
+            "            \"currency\": \"MXN\",\n" +
+            "            \"total\": \"6254.00\",\n" +
+            "            \"base\": \"3668.00\",\n" +
+            "            \"fees\": [\n" +
+            "                {\n" +
+            "                    \"amount\": \"0.00\",\n" +
+            "                    \"type\": \"SUPPLIER\"\n" +
+            "                },\n" +
+            "                {\n" +
+            "                    \"amount\": \"0.00\",\n" +
+            "                    \"type\": \"TICKETING\"\n" +
+            "                }\n" +
+            "            ],\n" +
+            "            \"grandTotal\": \"6254.00\"\n" +
+            "        },\n" +
+            "        \"pricingOptions\": {\n" +
+            "            \"fareType\": [\n" +
+            "                \"PUBLISHED\"\n" +
+            "            ],\n" +
+            "            \"includedCheckedBagsOnly\": false\n" +
+            "        },\n" +
+            "        \"validatingAirlineCodes\": [\n" +
+            "            \"VB\"\n" +
+            "        ],\n" +
+            "        \"travelerPricings\": [\n" +
+            "            {\n" +
+            "                \"travelerId\": \"1\",\n" +
+            "                \"fareOption\": \"STANDARD\",\n" +
+            "                \"travelerType\": \"ADULT\",\n" +
+            "                \"price\": {\n" +
+            "                    \"currency\": \"MXN\",\n" +
+            "                    \"total\": \"3127.00\",\n" +
+            "                    \"base\": \"1834.00\",\n" +
+            "                    \"fees\": null,\n" +
+            "                    \"grandTotal\": null\n" +
+            "                },\n" +
+            "                \"fareDetailsBySegment\": [\n" +
+            "                    {\n" +
+            "                        \"segmentId\": \"1\",\n" +
+            "                        \"cabin\": \"ECONOMY\",\n" +
+            "                        \"fareBasis\": \"BZGO00N\",\n" +
+            "                        \"brandedFare\": \"ZERO\",\n" +
+            "                        \"brandedFareLabel\": \"VIVA ZERO\",\n" +
+            "                        \"includedCheckedBags\": {\n" +
+            "                            \"quantity\": 0\n" +
+            "                        },\n" +
+            "                        \"amenities\": [\n" +
+            "                            {\n" +
+            "                                \"description\": \"LAPTOP OR HANDBAG UP TO 85LCM\",\n" +
+            "                                \"amenityType\": \"BAGGAGE\",\n" +
+            "                                \"amenityProvider\": {\n" +
+            "                                    \"name\": \"BrandedFare\"\n" +
+            "                                },\n" +
+            "                                \"chargeable\": false\n" +
+            "                            }\n" +
+            "                        ],\n" +
+            "                        \"class\": \"B\"\n" +
+            "                    },\n" +
+            "                    {\n" +
+            "                        \"segmentId\": \"2\",\n" +
+            "                        \"cabin\": \"ECONOMY\",\n" +
+            "                        \"fareBasis\": \"BZGO00N\",\n" +
+            "                        \"brandedFare\": \"ZERO\",\n" +
+            "                        \"brandedFareLabel\": \"VIVA ZERO\",\n" +
+            "                        \"includedCheckedBags\": {\n" +
+            "                            \"quantity\": 0\n" +
+            "                        },\n" +
+            "                        \"amenities\": [\n" +
+            "                            {\n" +
+            "                                \"description\": \"LAPTOP OR HANDBAG UP TO 85LCM\",\n" +
+            "                                \"amenityType\": \"BAGGAGE\",\n" +
+            "                                \"amenityProvider\": {\n" +
+            "                                    \"name\": \"BrandedFare\"\n" +
+            "                                },\n" +
+            "                                \"chargeable\": false\n" +
+            "                            }\n" +
+            "                        ],\n" +
+            "                        \"class\": \"B\"\n" +
+            "                    }\n" +
+            "                ]\n" +
+            "            },\n" +
+            "            {\n" +
+            "                \"travelerId\": \"2\",\n" +
+            "                \"fareOption\": \"STANDARD\",\n" +
+            "                \"travelerType\": \"ADULT\",\n" +
+            "                \"price\": {\n" +
+            "                    \"currency\": \"MXN\",\n" +
+            "                    \"total\": \"3127.00\",\n" +
+            "                    \"base\": \"1834.00\",\n" +
+            "                    \"fees\": null,\n" +
+            "                    \"grandTotal\": null\n" +
+            "                },\n" +
+            "                \"fareDetailsBySegment\": [\n" +
+            "                    {\n" +
+            "                        \"segmentId\": \"1\",\n" +
+            "                        \"cabin\": \"ECONOMY\",\n" +
+            "                        \"fareBasis\": \"BZGO00N\",\n" +
+            "                        \"brandedFare\": \"ZERO\",\n" +
+            "                        \"brandedFareLabel\": \"VIVA ZERO\",\n" +
+            "                        \"includedCheckedBags\": {\n" +
+            "                            \"quantity\": 0\n" +
+            "                        },\n" +
+            "                        \"amenities\": [\n" +
+            "                            {\n" +
+            "                                \"description\": \"LAPTOP OR HANDBAG UP TO 85LCM\",\n" +
+            "                                \"amenityType\": \"BAGGAGE\",\n" +
+            "                                \"amenityProvider\": {\n" +
+            "                                    \"name\": \"BrandedFare\"\n" +
+            "                                },\n" +
+            "                                \"chargeable\": false\n" +
+            "                            }\n" +
+            "                        ],\n" +
+            "                        \"class\": \"B\"\n" +
+            "                    },\n" +
+            "                    {\n" +
+            "                        \"segmentId\": \"2\",\n" +
+            "                        \"cabin\": \"ECONOMY\",\n" +
+            "                        \"fareBasis\": \"BZGO00N\",\n" +
+            "                        \"brandedFare\": \"ZERO\",\n" +
+            "                        \"brandedFareLabel\": \"VIVA ZERO\",\n" +
+            "                        \"includedCheckedBags\": {\n" +
+            "                            \"quantity\": 0\n" +
+            "                        },\n" +
+            "                        \"amenities\": [\n" +
+            "                            {\n" +
+            "                                \"description\": \"LAPTOP OR HANDBAG UP TO 85LCM\",\n" +
+            "                                \"amenityType\": \"BAGGAGE\",\n" +
+            "                                \"amenityProvider\": {\n" +
+            "                                    \"name\": \"BrandedFare\"\n" +
+            "                                },\n" +
+            "                                \"chargeable\": false\n" +
+            "                            }\n" +
+            "                        ],\n" +
+            "                        \"class\": \"B\"\n" +
+            "                    }\n" +
+            "                ]\n" +
+            "            }\n" +
+            "        ],\n" +
+            "        \"airline\": {\n" +
+            "            \"iataCode\": \"VB\",\n" +
+            "            \"businessName\": \"VIVA AEROBUS\",\n" +
+            "            \"commonName\": \"VIVA AEROBUS\"\n" +
+            "        },\n" +
+            "        \"operativeAirline\": null,\n" +
+            "        \"upsellOffer\": false\n" +
             "    }\n" +
             "]";
 }

@@ -1,5 +1,6 @@
 package com.jlmm.flights_backend.controllers;
 
+import com.jlmm.flights_backend.services.EmergencyOutputs;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,14 +14,10 @@ public class Controller {
 	@Autowired
 	private Service service;
 	
-	@GetMapping("/airport/{keyWord}")
-	public ResponseEntity<Object> demo(@PathVariable(value = "keyWord", required = true) String keyWord) {
-		return ResponseEntity.ok().body(keyWord);
-	}
-
 	@GetMapping("/airport/info/{keyWord}")
 	public ResponseEntity<Object> getAirportInfo(@PathVariable (value = "keyWord", required = true) String keyWord){
 		return ResponseEntity.ok().body(service.getAirportCodes(keyWord));
+//		return ResponseEntity.ok().body(EmergencyOutputs.airports);
 	}
 
 	@GetMapping("/airport/flights")
@@ -41,6 +38,8 @@ public class Controller {
 				numberOfAdults,
 				nonStop
 		));
+
+//		return ResponseEntity.ok().body(EmergencyOutputs.flights);
 	}
 }
 
