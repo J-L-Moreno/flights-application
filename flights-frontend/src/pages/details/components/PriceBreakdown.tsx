@@ -1,6 +1,5 @@
 import { Box, Typography } from "@mui/material";
 import { Fee, Price } from "../../../models/FlightOffer";
-import { PricePerTraveler } from "./PricePerTraveler";
 
 interface Properties{
     price: Price

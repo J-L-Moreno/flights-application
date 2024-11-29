@@ -36,7 +36,6 @@ public class Service {
 	}
 
 	public List<Location> getAirportCodes(String keyWord){
-//		wait(200);
 		String accessToken = getAccessToken();
 		HttpHeaders httpHeaders = new HttpHeaders();
 		httpHeaders.add("Authorization", "Bearer " + accessToken);
@@ -60,7 +59,7 @@ public class Service {
 	}
 
 	Location getAirportByIataCode(String accessToken, String iataCode){
-		wait(500);
+		wait(250);
 		HttpHeaders httpHeaders = new HttpHeaders();
 		httpHeaders.add("Authorization", "Bearer " + accessToken);
 

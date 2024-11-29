@@ -3,12 +3,13 @@ import dayjs, {Dayjs} from "dayjs";
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import { MissedFieldAllert } from "./MissedFieldAllert";
 import { Loading } from "./Loading";
 import { getLocations } from "../../../providers/LocationsProvider";
 import { Location } from "../../../models/Location";
 import { getFlights } from "../../../providers/FlightsProvider";
+import { debounce } from 'lodash';
 
 import { useDispatch } from 'react-redux';
 import { useNavigate } from "react-router-dom";
@@ -37,8 +38,7 @@ export function SearchControls(){
     const [airportsOptions, setAirportOptions] = useState<readonly Location[]>([]);
 
     function onChangeAirportOptions(airports: Location[] | undefined){
-        setAirportOptions([]);
-        if(airports != undefined){
+        if(airports !== undefined){
             setAirportOptions(airports);
         }
     }
@@ -48,24 +48,29 @@ export function SearchControls(){
 
     function onChangeDepartureAirport(newValue: Location | null){
         setDepartureAirport(newValue);
-        setAirportOptions([]);
     }
-    function onChangeDepartureAirportInput(newValue: string | null){
+    function onChangeDepartureAirportInput(newValue: string | null) {
         setDepartureAirportInput(newValue);
-
-        if(newValue != null){
-            getLocations(newValue).then(data => onChangeAirportOptions(data));
+    
+        if (newValue != null) {
+            debouncedGetLocations(newValue);
         }
     }
+    
+    const debouncedGetLocations = useCallback(
+        debounce((value: string) => {
+            getLocations(value).then(data => onChangeAirportOptions(data));
+        }, 300), // 300ms debounce
+        []
+    );
     function onChangeArrivalAirport(newValue: Location | null){
         setArrivalAirport(newValue);
-        setAirportOptions([]);
     }
     function onChangeArrivalAirportInput(newValue: string){
         setArrivalAirportInput(newValue);
 
-        if(newValue != null){
-            getLocations(newValue).then(data => onChangeAirportOptions(data));
+        if (newValue != null) {
+            debouncedGetLocations(newValue);
         }
     }
     function onChangeDepartureDate(newValue: dayjs.Dayjs | null){
