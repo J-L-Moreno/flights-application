@@ -1,4 +1,4 @@
-import { Box, Button, Grid2, Stack, Typography } from "@mui/material";
+import { Box, Button, Grid2, Stack } from "@mui/material";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { RootState } from "../../store/Store";
@@ -10,8 +10,6 @@ import { PricePerTraveler } from "./components/PricePerTraveler";
 export function DetailsView(){
     const navigate = useNavigate();
     const currentFlight: FlightOffer | undefined = useSelector((state: RootState) => state.currentFlight.value);
-
-    let itinerariesCounter = 1;
 
     return (<Box sx={{p:2}}>
         <Button variant="contained" onClick={()=>navigate("/flights")}>Return to results</Button>

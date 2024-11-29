@@ -1,9 +1,8 @@
-import { Box, Button, Grid2, Typography } from "@mui/material";
+import { Box, Grid2, Stack, Typography } from "@mui/material";
 import { FlightOffer, Segment } from "../../../models/FlightOffer";
 import { TravelersFareDetails } from "./TravelersFareDetails";
 import { useSelector } from "react-redux";
 import { RootState } from "../../../store/Store";
-import { Airline } from "../../../models/Airline";
 
 interface Properties{
     segment: Segment
@@ -23,10 +22,12 @@ export function SegmentCard(props: Properties){
         arrivalCity = `${props.segment.arrival.location.address.cityName} (${props.segment.arrival.location.iataCode})`
     }
 
+    const Br = () => <br/>
+
     return (
         <>
         {
-            props.counter == 1 
+            props.counter === 1 
             ?   <>
                     <br />
                     <Typography variant="h6" align="center">Itinerary</Typography> 
@@ -37,22 +38,21 @@ export function SegmentCard(props: Properties){
         <Box sx={{p: 2, border: '1px solid black', borderRadius:0}}>
             <Grid2 container>
                 <Grid2 size={4}>
+                    <Stack divider={<Br/>}>
                     <Typography variant="body1">Segment {`${props.counter}`}</Typography>
-                    <br />
                     <Typography variant="body1">{`${formatDateTime(props.segment.departure.at)} - 
                     ${formatDateTime(props.segment.arrival.at)}`}</Typography>
-                    <br />
                     <Typography variant="body1">{`${departureCity} - ${arrivalCity}`}</Typography>
-                    <br />
                     <Typography variant="body1">{`Airline: ${currentFlight?.airline.commonName} (${currentFlight?.airline.iataCode})`}</Typography>
-                    <br />
                     {   props.segment.operating == null 
-                        ? <></>
-                        :props.segment.carrierCode != props.segment.operating.carrierCode
-                            ? <><Typography>{`Operative airline: ${props.segment.operating.carrier.commonName} (${props.segment.operating.carrier.iataCode})`}</Typography> br</>
-                            : <></>
+                        ? null
+                        :props.segment.carrierCode !== props.segment.operating.carrierCode
+                            ? <Typography>{`Operative airline: ${props.segment.operating.carrier.commonName} (${props.segment.operating.carrier.iataCode})`}</Typography>
+                            : null
                     }
-                    <Typography>{`Aircraft type: ${props.segment.aircraft.code}`}</Typography>
+                    <Typography>{`Aircraft code: ${props.segment.aircraft.code}`}</Typography>
+                    <Typography>{`Flight number: ${props.segment.number}`}</Typography>
+                    </Stack>
                 </Grid2>
                 <Grid2 size={3}>
                     {

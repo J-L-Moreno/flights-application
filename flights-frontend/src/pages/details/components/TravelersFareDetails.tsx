@@ -12,7 +12,7 @@ export function TravelersFareDetails(props: Properties){
 
     function findSegmentFareDetails(segmentId: string){
         for(let i = 0; i < currentFlight!.travelerPricings[0].fareDetailsBySegment.length; i++){
-            if(currentFlight!.travelerPricings[0].fareDetailsBySegment[i].segmentId == segmentId){
+            if(currentFlight!.travelerPricings[0].fareDetailsBySegment[i].segmentId === segmentId){
                 return currentFlight!.travelerPricings[0].fareDetailsBySegment[i];
             }
         }

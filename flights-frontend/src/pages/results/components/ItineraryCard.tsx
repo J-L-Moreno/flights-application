@@ -1,14 +1,18 @@
-import { Grid2, Typography } from "@mui/material";
+import { Grid2, Stack, Typography } from "@mui/material";
 import { Itinerary, Segment } from "../../../models/FlightOffer";
 import { Location } from "../../../models/Location";
 import { Airline } from "../../../models/Airline";
 
-interface properties {
+interface Properties {
     itinerary: Itinerary
     airline: Airline
 }
+interface Stop{
+    airport: Location;
+    duration: string;
+}
 
-export function ItineraryCard(props: properties){
+export function ItineraryCard(props: Properties){
     const departureDate: Date = props.itinerary.segments[0].departure.at;
     const arrivalDate: Date = props.itinerary.segments.slice(-1)[0].arrival.at;
 
@@ -28,58 +32,71 @@ export function ItineraryCard(props: properties){
     
     const duration = props.itinerary.duration;
 
+    const Br = () => <br/>
     return(
-        // <Box sx={{p: 5, border: '1px solid black'}}>
-            <Grid2 container>
-                <Grid2 size={6}>
-                    <Typography>
-                        {`${formatDateTime(departureDate)} - ${formatDateTime(arrivalDate)}`}
-                    </Typography>
-                    <br />
-                    <Typography>
-                        {`${departureCityName} (${departureIataCode}) - 
-                        ${arrivalCityName} (${arrivalIataCode})`}
-                    </Typography>
-                    <br />
-                    <Typography variant="body1" align="left">
-                        {`Airline: ${props.airline.commonName ?? ''} (${props.airline.iataCode})`}
-                    </Typography>
-                </Grid2>
-
-                <Grid2 size={6}>
-                    <br />
-                    <Typography variant="body1" align="left">{`${convertDuration(duration)} ${getStops(props.itinerary)}`}</Typography>
-                </Grid2>
+        <Grid2 container>
+            <Grid2 size={6}>
+                <Stack divider={<Br/>}>
+                <Typography>
+                    {`${formatDateTime(departureDate)} - ${formatDateTime(arrivalDate)}`}
+                </Typography>
+                <Typography>
+                    {`${departureCityName} (${departureIataCode}) - 
+                    ${arrivalCityName} (${arrivalIataCode})`}
+                </Typography>
+                <Typography variant="body1" align="left">
+                    {`Airline: ${props.airline.commonName ?? ''} (${props.airline.iataCode})`}
+                </Typography>
+                </Stack>
             </Grid2>
-        // </Box>
+
+            <Grid2 size={6}>
+                <Br />
+                <Typography variant="body1" align="left">{`${convertDuration(duration)} ${getNumerOfStops(props.itinerary)}`}</Typography>
+                <Stack>
+                    {
+                        getStops(props.itinerary.segments).map((stop: Stop)=>{
+                            return <Typography key={stop.airport.iataCode}>{`${stop.duration} in ${stop.airport.address.cityName} (${stop.airport.iataCode})`}</Typography>
+                        })
+                    }
+                </Stack>
+            </Grid2>
+        </Grid2>
     );
 }
 
-function getStops(itinerary: Itinerary): string{
+function getStops(segments: Segment[]): Stop[]{
+    let stops: Stop[] = [];
+
+    for(let i = 1; i < segments.length; i++){
+        let stop: Stop = {} as Stop;
+        stop.airport = segments[i].departure.location;
+        stop.duration = getWaitTime(new Date(segments[i - 1].arrival.at), new Date(segments[i].departure.at));
+        stops.push(stop);
+    }
+
+    return stops;
+}
+
+function getWaitTime(lastSegmentArrivalDatetime: Date, currentSegmentDepartureDatetime: Date){
+    const differenceInMilliseconds = currentSegmentDepartureDatetime.getTime() - lastSegmentArrivalDatetime.getTime();
+    const differenceInMinutes = Math.floor(differenceInMilliseconds / 60000);
+    const hours = Math.floor(differenceInMinutes / 60);
+    const minutes = differenceInMinutes % 60;
+
+    return `${hours}h ${minutes}m`;
+}
+
+function getNumerOfStops(itinerary: Itinerary): string{
     let stops = itinerary.segments.length - 1;
 
-    if(stops == 0){
+    if(stops === 0){
         return "(Non-stop)";
     }
-    if(stops == 1){
+    if(stops === 1){
         return "(1 stop)";
     }
     return `(${stops} stops)`;
-}
-
-function stopCounter(itinerary: Itinerary): string{
-    let count = 0;
-    itinerary.segments.map((segment: Segment)=>{
-        count += segment.numberOfStops;
-    }
-    )
-    if(count == 0){
-        return "(Non-stop)";
-    }
-    if(count == 1){
-        return "(1 stop)";
-    }
-    return `(${count} stops)`;
 }
 
 function convertDuration(isoDuration: string): string {
