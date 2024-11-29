@@ -13,7 +13,7 @@ import com.jlmm.flights_backend.services.Service;
 public class Controller {
 	@Autowired
 	private Service service;
-	
+
 	@GetMapping("/airport/info/{keyWord}")
 	public ResponseEntity<Object> getAirportInfo(@PathVariable (value = "keyWord", required = true) String keyWord){
 		return ResponseEntity.ok().body(service.getAirportCodes(keyWord));
