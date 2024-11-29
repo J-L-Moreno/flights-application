@@ -32,10 +32,11 @@ export function ItineraryCard(props: properties){
         // <Box sx={{p: 5, border: '1px solid black'}}>
             <Grid2 container>
                 <Grid2 size={6}>
-                    <Typography variant="body1" align="left">
+                    <Typography>
                         {`${formatDateTime(departureDate)} - ${formatDateTime(arrivalDate)}`}
                     </Typography>
-                    <Typography variant="body1" align="left">
+                    <br />
+                    <Typography>
                         {`${departureCityName} (${departureIataCode}) - 
                         ${arrivalCityName} (${arrivalIataCode})`}
                     </Typography>

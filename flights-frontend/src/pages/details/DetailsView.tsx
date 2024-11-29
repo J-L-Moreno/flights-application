@@ -11,6 +11,8 @@ export function DetailsView(){
     const navigate = useNavigate();
     const currentFlight: FlightOffer | undefined = useSelector((state: RootState) => state.currentFlight.value);
 
+    let itinerariesCounter = 1;
+
     return (<Box sx={{p:2}}>
         <Button variant="contained" onClick={()=>navigate("/flights")}>Return to results</Button>
         <Grid2 container spacing={2}>
@@ -19,12 +21,13 @@ export function DetailsView(){
                     {   
                         currentFlight?.itineraries.map((itinerary: Itinerary)=>{
                             let counter = 1;
-                            let segmentArrivalDateTime: Date;
+                            let lastSegmentArrivalDateTime: Date;
                             return itinerary.segments.map((segment: Segment)=>{
-                                counter == 1 ? <Typography>Itinerary</Typography> : <></>
+                                const segmentCard = (<SegmentCard segment={segment} counter={counter} arrivalDatetime={lastSegmentArrivalDateTime}/>);
+                                
                                 counter++;
-                                segmentArrivalDateTime = segment.arrival.at;
-                                return <SegmentCard segment={segment} counter={counter - 1} arrivalDatetime={segmentArrivalDateTime}/>
+                                lastSegmentArrivalDateTime = segment.arrival.at;
+                                return segmentCard;
                             }
                             )
                         })

@@ -17,6 +17,8 @@ export function FlightCard(props: Properties){
 const navigate = useNavigate();
 const dispatch = useDispatch();
 
+let count = 1;
+
     return (
         <Box sx={{p:2, border: '1px solid black', borderRadius:0}}>
             <Grid2 container>
@@ -24,7 +26,11 @@ const dispatch = useDispatch();
                     <Stack divider={<Divisor/>}>
                        {
                          props.flight.itineraries.map(
-                            (itinerary: Itinerary) => <ItineraryCard itinerary={itinerary} airline={props.flight.airline}/>
+                            (itinerary: Itinerary)=>{
+                                const itineraryCard = (<ItineraryCard itinerary={itinerary} airline={props.flight.airline} key={count}/>)
+                                count++
+                                return itineraryCard;
+                            }
                          )
                        }
                     </Stack>

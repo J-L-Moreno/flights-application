@@ -38,14 +38,18 @@ export function SegmentCard(props: Properties){
             <Grid2 container>
                 <Grid2 size={4}>
                     <Typography variant="body1">Segment {`${props.counter}`}</Typography>
+                    <br />
                     <Typography variant="body1">{`${formatDateTime(props.segment.departure.at)} - 
                     ${formatDateTime(props.segment.arrival.at)}`}</Typography>
+                    <br />
                     <Typography variant="body1">{`${departureCity} - ${arrivalCity}`}</Typography>
+                    <br />
                     <Typography variant="body1">{`Airline: ${currentFlight?.airline.commonName} (${currentFlight?.airline.iataCode})`}</Typography>
+                    <br />
                     {   props.segment.operating == null 
                         ? <></>
                         :props.segment.carrierCode != props.segment.operating.carrierCode
-                            ? <Typography>{`Operative airline: ${props.segment.operating.carrier.commonName} (${props.segment.operating.carrier.iataCode})`}</Typography>
+                            ? <><Typography>{`Operative airline: ${props.segment.operating.carrier.commonName} (${props.segment.operating.carrier.iataCode})`}</Typography> br</>
                             : <></>
                     }
                     <Typography>{`Aircraft type: ${props.segment.aircraft.code}`}</Typography>

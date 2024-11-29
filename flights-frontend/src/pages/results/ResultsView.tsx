@@ -40,7 +40,7 @@ export function ResultsView(){
             </Box>
             {
                 pageFlights.map(
-                    (flight: FlightOffer) => <FlightCard flight={flight}/>
+                    (flight: FlightOffer) => <FlightCard flight={flight} key={flight.id}/>
                 )
             }
         <Box display="flex" justifyContent="center"><Pagination color="primary" shape="rounded" count={Math.ceil(flights.length / 10)} page={page} onChange={onPageChange} /></Box>
